@@ -1,7 +1,8 @@
 project:
   type: website
   output-dir: docs
-
+resources:
+  - CNAME
 website:
   page-navigation: true
   repo-branch: main
