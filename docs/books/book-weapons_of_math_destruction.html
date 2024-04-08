@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Where Victor lets out his thoughts">
 
-<title>Victor’s Other Vector</title>
+<title>Weapons of Math Destruction</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,12 +117,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./books/"> <i class="bi bi-book" role="img">
+    <a class="nav-link" href="../books/"> <i class="bi bi-book" role="img">
 </i> 
 <span class="menu-text">My Reading</span></a>
   </li>  
@@ -132,14 +165,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Victor’s Other Vector</h1>
+<h1 class="title"><em>Weapons of Math Destruction</em></h1>
 </div>
 
-<div>
-  <div class="description">
-    Where Victor lets out his thoughts
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -154,60 +182,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="reading-journey" class="level2">
+<h2 class="anchored" data-anchor-id="reading-journey">Reading Journey</h2>
+<div id="cell-fig-reading-time" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>run _help_reading.py</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">'https://github.com/MrGeislinger/victorsothervector/raw/main/'</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">'data/reading/all_reading-clean.csv'</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>book_name <span class="op">=</span> <span class="st">"""Weapons of Math Destruction"""</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>one_title <span class="op">=</span> one_title_data(df, book_name)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>one_title_summary <span class="op">=</span> get_summary_by_day(one_title)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>generate_plot(one_title_summary, book_name)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig-reading-time" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-reading-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="book-weapons_of_math_destruction_files/figure-html/fig-reading-time-output-1.png" width="566" height="381" class="figure-img">
 </div>
-<div class="callout-title-container flex-fill">
-An April Fools’ Launch! Not a joke ; )
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Newsletter &amp; website launched!</p>
-<p>Subscribe to Substack for a periodic newsletter: <a href="https://victorsothervector.substack.com/?r=2fco1e&amp;utm_campaign=site_link">victorsothervector.substack.com</a> <br>Expect summaries and other snippets I want to point to. I make no claims it will be at a ‘regular’ interval!</p>
-</div>
-</div>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout="[30,70]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
-<p><a href="https://victorsothervector.substack.com/?r=2fco1e&amp;utm_campaign=site_img"><img src="images/substack_subscribe.jpg" class="img-fluid"></a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
-<p>The newsletter is a free-to-view medium for me share what I find interesting, so it’ll mostly center around machine learning (AI), education, and language/linguistics. Other things may leak through but it’ll be close to on brand. <br><br> The newsletter comes through on Substack but the actual material will more or less will be from other places such as this site (<a href="https://victorsothervector.com">victorsothervector.com</a>) or YouTube.</p>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-reading-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Reading done for Weapons of Math Destruction
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome!</h2>
-<p>Hi, I’m Victor Geislinger!</p>
-<p>I’m a machine learning engineer / data scientist that also likes to think about outreach and teaching others about technical happenings.</p>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout="[30,70]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: flex-start;">
-<p><img style="border-radius:200px;" src="https://avatars.githubusercontent.com/MrGeislinger?v=4"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
+<section id="info" class="level3">
+<h3 class="anchored" data-anchor-id="info">Info</h3>
 <ul>
-<li><strong>GitHub</strong> <a href="https://github.com/MrGeislinger"><span class="citation" data-cites="MrGeislinger">@MrGeislinger</span></a> has been my central place where I host things. Might change but for now, you can see some of the things I’ve played around with over there.</li>
-<li><strong>Threads</strong> <a href="https://www.threads.net/@victorsothervector"><span class="citation" data-cites="VictorsOtherVector">@VictorsOtherVector</span></a>: Where I’ve been most active &amp; have fun just having good conversations</li>
-<li><strong>YouTube</strong> <a href="https://www.youtube.com/@VictorsOtherVector"><span class="citation" data-cites="VictorsOtherVector">@VictorsOtherVector</span></a>: Been known to put out stuff sometimes usually about sofware engineering &amp; ML/AI.</li>
-<li><strong><a href="https://www.linkedin.com/in/mrgeislinger/">LinkedIn</a></strong>: This is the best place to actually message me; just be genuine and not a robot and I’ll try to message back.</li>
+<li>Started: 20240108-07:57:33</li>
+<li>Ended: 20240111-22:56:41</li>
+<li>Total Time Read: 3hrs 46mins 1secs</li>
 </ul>
-</div>
-</div>
-</div>
-<p>The other places I might as well mention:</p>
-<ul>
-<li><strong>Bluesky</strong> <a href="https://bsky.app/profile/victorsothervector.bsky.social"><span class="citation" data-cites="VictorsOtherVector">@VictorsOtherVector</span></a>: Hardly participate on there right now. It just hasn’t been as fun as <a href="https://www.threads.net/@victorsothervector">Threads</a>.</li>
-<li><strong>Mastodon</strong> <a href="https://sigmoid.social/@VictorsOtherVector"><span class="citation" data-cites="sigmoid.social">@sigmoid.social</span>/<span class="citation" data-cites="VictorsOtherVector">@VictorsOtherVector</span></a>: About the same as <a href="https://bsky.app/profile/victorsothervector.bsky.social">Bluesky</a>; you can check me out there if you like.</li>
-</ul>
+</section>
+</section>
+<section id="thoughts-on-weapons-of-math-destruction" class="level2">
+<h2 class="anchored" data-anchor-id="thoughts-on-weapons-of-math-destruction">Thoughts on <em>Weapons of Math Destruction</em></h2>
+<blockquote class="blockquote">
+<p>… ??? …</p>
+</blockquote>
 
 
 </section>
