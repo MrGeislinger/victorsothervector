@@ -14,11 +14,12 @@ description: Reading journey and notes about books
 creator: "@victorgeislinger"
 ---
 
-Summary of reading
+## Summary of Reading
 
 ```{python}
-#| label: fig-reading-time
-#| fig-cap: "Reading done for all books"
+# | echo: false
+# | label: fig-total-reading-time
+# | fig-cap: "Reading done for all books recorded"
 %run _help_reading.py
 import pandas as pd
 
@@ -31,9 +32,16 @@ book_name = """All Readings"""
 one_title = one_title_data(df)
 one_title_summary = get_summary_by_day(one_title)
 f,ax = generate_plot(one_title_summary, book_name, figsize=(8,4))
-# ax.set_title('Test');
+# Only display from firt starting to last read
 all_ticks = ax.get_xticks()
-day_min = all_ticks[0]#one_title.start.dt.floor('d').min().strftime('%D')
-day_max = all_ticks[-1]#one_title.start.dt.floor('d').max().strftime('%D')
-ax.set_xticks([all_ticks[0],all_ticks[-1]])
+day_min = all_ticks[0]
+day_max = all_ticks[-1]
+ax.set_xticks(
+  [
+    all_ticks[0],
+    all_ticks[len(all_ticks)//3],
+    all_ticks[len(all_ticks)//3*2],
+    all_ticks[-1],
+  ]
+)
 ```

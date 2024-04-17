@@ -62,12 +62,12 @@ def generate_plot(
     )
 
     # Axis formatting
-    x_dates = (
-        data['index'].dt
-        .strftime('%D')
-        .sort_values()
-        .unique()
-    )
+    x_dates = [
+        t.strftime('%D')
+        for t in sorted(
+            data['index'].unique().tolist()
+        )
+    ]
     ax.set_xticklabels(
         labels=x_dates,
     )
