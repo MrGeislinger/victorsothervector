@@ -35,46 +35,13 @@ df.start = pd.to_datetime(
 df.end = pd.to_datetime(
     df.end
 )
-def get_year_data(data, year=2024):
-    df_yr = data[
-        (data.start < f'{year+1}-01-01') &
-        (data.start >= f'{year}-01-01') 
-    ]
-
-    # Add in 'dummy' weeks to fill up the gap
-    df_temp = pd.DataFrame(columns=['weekday', 'week', 'activity'])
-    df_temp.week = np.arange(0,52)
-    df_orig = pd.DataFrame(columns=df_temp.columns)
-    # Offset by one for display (starts at zero)
-    df_orig['week'] = df_yr.start.dt.strftime('%W').astype(int) - 1
-    # Monday is the first day of the week now (starts at zero)
-    df_orig['weekday'] = (df_yr.start.dt.strftime('%w').astype(int) - 1) % 7
-    df_orig['activity'] = df_yr.duration_frac
-    df_new = pd.concat([
-        df_temp, 
-        df_orig,
-    ])
-
-    # Reshape the data and plot it
-    df_pivot = df_new.pivot_table(
-        columns="week",
-        index="weekday",
-        values="activity",
-        aggfunc='sum',
-        dropna=False,
-        sort=True,
-    )
-    df_pivot.fillna(0, inplace=True)
-
-    return df_pivot.sort_values('weekday', ascending=False)
-
 
 years = sorted(df.start.dt.year.unique().tolist())
 
 fig, axs = plt.subplots(
     nrows=len(years),
     sharex=True,
-    figsize=(8, 4),
+    figsize=(12, 4),
 )
 
 
@@ -103,45 +70,9 @@ for year,ax in zip(years, axs):
         ['Mo','Tu','We','Th','Fr','Sa','Su',][::-1],
     )
 
-    # for tick in ax.yaxis.get_majorticklabels():
-        # tick.set_horizontalalignment("right")
-
-    ax.set_title(f'{year} Reading')
-    
+    ax.set_title(f'{year} Reading: {df_pivot.values.sum():.1f}hrs')
     ax.spines[['right', 'top']].set_visible(False)
     ax.set_xticks([])
-    # week_offset = 2
-    # ax.set_xticks(
-    #     [
-    #         1 + week_offset,
-    #         6 + week_offset,
-    #         10 + week_offset,
-    #         15 + week_offset,
-    #         19 + week_offset,
-    #         23 + week_offset,
-    #         28 + week_offset,
-    #         32 + week_offset,
-    #         36 + week_offset,
-    #         41 + week_offset,
-    #         45 + week_offset,
-    #         49 + week_offset,
-    #     ],
-    #     [
-    #         'Jan',
-    #         'Feb',
-    #         'Mar',
-    #         'Apr',
-    #         'May',
-    #         'Jun',
-    #         'Jul',
-    #         'Aug',
-    #         'Sep',
-    #         'Oct',
-    #         'Nov',
-    #         'Dec',
-    #     ]
-
-    # )
 
 fig.autofmt_xdate()
 plt.tight_layout()

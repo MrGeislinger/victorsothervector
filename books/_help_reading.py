@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -84,3 +85,36 @@ def generate_plot(
     f.tight_layout()
     f.autofmt_xdate()
     return f,ax
+
+def get_year_data(data, year=2024):
+    df_yr = data[
+        (data.start < f'{year+1}-01-01') &
+        (data.start >= f'{year}-01-01') 
+    ]
+
+    # Add in 'dummy' weeks to fill up the gap
+    df_temp = pd.DataFrame(columns=['weekday', 'week', 'activity'])
+    df_temp.week = np.arange(0,52)
+    df_orig = pd.DataFrame(columns=df_temp.columns)
+    # Offset by one for display (starts at zero)
+    df_orig['week'] = df_yr.start.dt.strftime('%W').astype(int) - 1
+    # Monday is the first day of the week now (starts at zero)
+    df_orig['weekday'] = (df_yr.start.dt.strftime('%w').astype(int) - 1) % 7
+    df_orig['activity'] = df_yr.duration_frac
+    df_new = pd.concat([
+        df_temp, 
+        df_orig,
+    ])
+
+    # Reshape the data and plot it
+    df_pivot = df_new.pivot_table(
+        columns="week",
+        index="weekday",
+        values="activity",
+        aggfunc='sum',
+        dropna=False,
+        sort=True,
+    )
+    df_pivot.fillna(0, inplace=True)
+
+    return df_pivot.sort_values('weekday', ascending=False)
