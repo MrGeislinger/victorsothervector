@@ -22,26 +22,129 @@ creator: "@victorgeislinger"
 # | fig-cap: "Reading done for all books recorded"
 %run _help_reading.py
 import pandas as pd
+import numpy as np
+import matplotlib as mlp
 
 df = pd.read_csv(
   'https://github.com/MrGeislinger/victorsothervector/raw/main/'
   'data/reading/all_reading-clean.csv'
 )
-
-book_name = """All Readings"""
-one_title = one_title_data(df)
-one_title_summary = get_summary_by_day(one_title)
-f,ax = generate_plot(one_title_summary, book_name, figsize=(8,4))
-# Only display from firt starting to last read
-all_ticks = ax.get_xticks()
-day_min = all_ticks[0]
-day_max = all_ticks[-1]
-ax.set_xticks(
-  [
-    all_ticks[0],
-    all_ticks[len(all_ticks)//3],
-    all_ticks[len(all_ticks)//3*2],
-    all_ticks[-1],
-  ]
+df.start = pd.to_datetime(
+    df.start
 )
+df.end = pd.to_datetime(
+    df.end
+)
+def get_year_data(data, year=2024):
+    df_yr = data[
+        (data.start < f'{year+1}-01-01') &
+        (data.start >= f'{year}-01-01') 
+    ]
+
+    # Add in 'dummy' weeks to fill up the gap
+    df_temp = pd.DataFrame(columns=['weekday', 'week', 'activity'])
+    df_temp.week = np.arange(0,52)
+    df_orig = pd.DataFrame(columns=df_temp.columns)
+    # Offset by one for display (starts at zero)
+    df_orig['week'] = df_yr.start.dt.strftime('%W').astype(int) - 1
+    # Monday is the first day of the week now (starts at zero)
+    df_orig['weekday'] = (df_yr.start.dt.strftime('%w').astype(int) - 1) % 7
+    df_orig['activity'] = df_yr.duration_frac
+    df_new = pd.concat([
+        df_temp, 
+        df_orig,
+    ])
+
+    # Reshape the data and plot it
+    df_pivot = df_new.pivot_table(
+        columns="week",
+        index="weekday",
+        values="activity",
+        aggfunc='sum',
+        dropna=False,
+        sort=True,
+    )
+    df_pivot.fillna(0, inplace=True)
+
+    return df_pivot.sort_values('weekday', ascending=False)
+
+
+years = sorted(df.start.dt.year.unique().tolist())
+
+fig, axs = plt.subplots(
+    nrows=len(years),
+    sharex=True,
+    figsize=(8, 4),
+)
+
+
+for year,ax in zip(years, axs):
+    df_pivot = get_year_data(df, year=year)
+
+    Weekday, Week = np.mgrid[:df_pivot.shape[0]+1, :df_pivot.shape[1]+1]
+    extreme_value = df_pivot.values.mean() + 3*df_pivot.values.std() 
+
+    cmap = (plt.get_cmap('Greens')).copy()
+    cmap.set_under('#EAEDF0')
+    ax.set_aspect("equal")
+    ax.pcolormesh(
+        Week,
+        Weekday,
+        df_pivot.values,
+        cmap=cmap,
+        edgecolor="w",
+        vmin=1/3600. / 2,   # more than half-second
+        vmax=extreme_value, # Color darkest to max
+    )
+    ax.set_xlim(0, df_pivot.shape[1])
+
+    ax.set_yticks(
+        [0.5,1.5,2.5,3.5,4.5,5.5,6.5],
+        ['Mo','Tu','We','Th','Fr','Sa','Su',][::-1],
+    )
+
+    # for tick in ax.yaxis.get_majorticklabels():
+        # tick.set_horizontalalignment("right")
+
+    ax.set_title(f'{year} Reading')
+    
+    ax.spines[['right', 'top']].set_visible(False)
+    ax.set_xticks([])
+    # week_offset = 2
+    # ax.set_xticks(
+    #     [
+    #         1 + week_offset,
+    #         6 + week_offset,
+    #         10 + week_offset,
+    #         15 + week_offset,
+    #         19 + week_offset,
+    #         23 + week_offset,
+    #         28 + week_offset,
+    #         32 + week_offset,
+    #         36 + week_offset,
+    #         41 + week_offset,
+    #         45 + week_offset,
+    #         49 + week_offset,
+    #     ],
+    #     [
+    #         'Jan',
+    #         'Feb',
+    #         'Mar',
+    #         'Apr',
+    #         'May',
+    #         'Jun',
+    #         'Jul',
+    #         'Aug',
+    #         'Sep',
+    #         'Oct',
+    #         'Nov',
+    #         'Dec',
+    #     ]
+
+    # )
+
+fig.autofmt_xdate()
+plt.tight_layout()
+
+
 ```
