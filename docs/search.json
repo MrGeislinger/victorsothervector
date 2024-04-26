@@ -1292,14 +1292,14 @@
     "href": "books/book-hyperion.html",
     "title": "Hyperion",
     "section": "",
-    "text": "Started: 20240421-17:03:49\nEnded: 20240421-21:36:11\nTotal Time Read: 2hrs 5mins 58secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Hyperion\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Hyperion"
+    "text": "Started: 20240421-17:03:49\nEnded: 20240425-22:13:18\nTotal Time Read: 5hrs 57mins 21secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Hyperion\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Hyperion"
   },
   {
     "objectID": "books/book-hyperion.html#reading-journey",
     "href": "books/book-hyperion.html#reading-journey",
     "title": "Hyperion",
     "section": "",
-    "text": "Started: 20240421-17:03:49\nEnded: 20240421-21:36:11\nTotal Time Read: 2hrs 5mins 58secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Hyperion\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Hyperion"
+    "text": "Started: 20240421-17:03:49\nEnded: 20240425-22:13:18\nTotal Time Read: 5hrs 57mins 21secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Hyperion\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Hyperion"
   },
   {
     "objectID": "books/book-learning_test-driven_development.html",
@@ -1474,14 +1474,14 @@
     "href": "books/book-reinforcement_learning.html",
     "title": "Reinforcement Learning",
     "section": "",
-    "text": "Started: 20230428-13:25:00\nEnded: 20240421-14:22:54\nTotal Time Read: 3hrs 22mins 52secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Reinforcement Learning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Reinforcement Learning"
+    "text": "Started: 20230428-13:25:00\nEnded: 20240425-15:27:23\nTotal Time Read: 4hrs 46mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Reinforcement Learning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Reinforcement Learning"
   },
   {
     "objectID": "books/book-reinforcement_learning.html#reading-journey",
     "href": "books/book-reinforcement_learning.html#reading-journey",
     "title": "Reinforcement Learning",
     "section": "",
-    "text": "Started: 20230428-13:25:00\nEnded: 20240421-14:22:54\nTotal Time Read: 3hrs 22mins 52secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Reinforcement Learning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Reinforcement Learning"
+    "text": "Started: 20230428-13:25:00\nEnded: 20240425-15:27:23\nTotal Time Read: 4hrs 46mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Reinforcement Learning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Reinforcement Learning"
   },
   {
     "objectID": "books/book-generative_deep_learning,_2nd_ed.html",
