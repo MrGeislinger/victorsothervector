@@ -4,6 +4,7 @@ project:
 resources:
   - CNAME
 website:
+  favicon: favicon.png
   page-navigation: true
   repo-branch: main
   repo-url: https://github.com/MrGeislinger/victorsothervector
