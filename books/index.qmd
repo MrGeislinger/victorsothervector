@@ -4,8 +4,12 @@ listing:
   contents:
     - "book-*.qmd"
   type: table
-  sort-ui: true
+  sort-ui: [reading.start, title, reading.end]
   filter-ui: true
+  fields: [title, reading.start, reading.end]
+  field-display-names:
+    reading.end: "Ended"
+    reading.start: "Started"
 format:
   html:
     code-fold: true
@@ -69,8 +73,10 @@ for year,ax in zip(years, axs):
         [0.5,1.5,2.5,3.5,4.5,5.5,6.5],
         ['Mo','Tu','We','Th','Fr','Sa','Su',][::-1],
     )
-
-    ax.set_title(f'{year} Reading: {df_pivot.values.sum():.1f}hrs')
+    n_books = sum(df.groupby(['title'])['start'].min().dt.year == year)
+    ax.set_title(
+      f'{year}: Read {n_books} Books over {df_pivot.values.sum():.1f}hrs'
+    )
     ax.spines[['right', 'top']].set_visible(False)
     ax.set_xticks([])
 
