@@ -340,14 +340,14 @@
     "href": "books/index.html",
     "title": "Reading Journey",
     "section": "",
-    "text": "/var/folders/yp/r91z7x1x2pq383rpcrh9dr940000gn/T/ipykernel_2823/2180296559.py:10: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.\n  df.start = pd.to_datetime(\n\n\n\n\n\n\n\n\nFigure 1: Reading done for all books recorded"
+    "text": "Figure 1: Reading done for all books recorded"
   },
   {
     "objectID": "books/index.html#summary-of-reading",
     "href": "books/index.html#summary-of-reading",
     "title": "Reading Journey",
     "section": "",
-    "text": "/var/folders/yp/r91z7x1x2pq383rpcrh9dr940000gn/T/ipykernel_2823/2180296559.py:10: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.\n  df.start = pd.to_datetime(\n\n\n\n\n\n\n\n\nFigure 1: Reading done for all books recorded"
+    "text": "Figure 1: Reading done for all books recorded"
   },
   {
     "objectID": "books/book-nudge–_the_final_edition.html",

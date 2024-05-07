@@ -34,10 +34,12 @@ df = pd.read_csv(
   'data/reading/all_reading-clean.csv'
 )
 df.start = pd.to_datetime(
-    df.start
+    df.start,
+    format='%Y-%m-%d %H:%M:%S',
 )
 df.end = pd.to_datetime(
-    df.end
+    df.end,
+    format='%Y-%m-%d %H:%M:%S',
 )
 
 years = sorted(df.start.dt.year.unique().tolist())
