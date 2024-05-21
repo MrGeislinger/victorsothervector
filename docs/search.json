@@ -970,7 +970,7 @@
     "href": "books/book-house_of_leaves.html",
     "title": "House of Leaves",
     "section": "",
-    "text": "Started: 2024-05-14T16:18:31Z\nEnded: 2024-05-14T16:32:37Z\nTotal Time Read: 0hrs 14mins 3secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"House of Leaves\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for House of Leaves"
+    "text": "Overview   This book really shines in how its physically structured with the story told in the footnotes of footnotes and appendices. It’s meant to emulate a non-fiction book while also telling (at least) two different stories that have different parallels to one another. If this book could be summarized, its vibe is layers.   Buy at Bookshop (non-affiliate link / affiliate link)\n\n\n\n\n\n\nStarted: 2024-05-14T16:18:31Z\nEnded: 2024-05-14T16:32:37Z\nTotal Time Read: 0hrs 14mins 3secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"House of Leaves\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for House of Leaves"
   },
   {
     "objectID": "books/book-house_of_leaves.html#reading-journey",
@@ -1734,5 +1734,12 @@
     "title": "The Creative Act: A Way of Being",
     "section": "",
     "text": "Started: 2023-09-28T03:38:30Z\nEnded: 2023-09-28T05:06:30Z\nTotal Time Read: 1hrs 28mins 0secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Creative Act: A Way of Being\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Creative Act: A Way of Being"
+  },
+  {
+    "objectID": "books/reviews/review-house_of_leaves.html",
+    "href": "books/reviews/review-house_of_leaves.html",
+    "title": "House of Leaves",
+    "section": "",
+    "text": "Thoughts on House of Leaves\n\n\n\n\n\n\n\n\n\nOverview   This book really shines in how its physically structured with the story told in the footnotes of footnotes and appendices. It’s meant to emulate a non-fiction book while also telling (at least) two different stories that have different parallels to one another. If this book could be summarized, its vibe is layers.   Buy at Bookshop (non-affiliate link / affiliate link)"
   }
 ]
