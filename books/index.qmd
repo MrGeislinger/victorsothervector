@@ -22,8 +22,6 @@ creator: "@victorgeislinger"
 
 ```{python}
 # | echo: false
-# | label: fig-total-reading-time
-# | fig-cap: "Reading done for all books recorded"
 %run _help_reading.py
 import pandas as pd
 import numpy as np
@@ -43,15 +41,20 @@ df.end = pd.to_datetime(
 )
 
 years = sorted(df.start.dt.year.unique().tolist())
+```
 
+```{python}
+# | echo: false
+# | label: fig-total-reading-time-past-years
+# | fig-cap: "Reading done for all books recorded (past years)"
 fig, axs = plt.subplots(
-    nrows=len(years),
+    nrows=len(years)-1,
     sharex=True,
-    figsize=(12, 4),
+    figsize=(8, 4),
 )
 
 
-for year,ax in zip(years, axs):
+for year,ax in zip(years[:-1], axs):
     df_pivot = get_year_data(df, year=year)
 
     Weekday, Week = np.mgrid[:df_pivot.shape[0]+1, :df_pivot.shape[1]+1]
@@ -84,6 +87,74 @@ for year,ax in zip(years, axs):
 
 fig.autofmt_xdate()
 plt.tight_layout()
+```
 
+
+```{python}
+# | echo: false
+%run _help_reading.py
+import pandas as pd
+import numpy as np
+import matplotlib as mlp
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+df.start = pd.to_datetime(
+    df.start,
+    format='%Y-%m-%d %H:%M:%S',
+)
+df.end = pd.to_datetime(
+    df.end,
+    format='%Y-%m-%d %H:%M:%S',
+)
+
+years = sorted(df.start.dt.year.unique().tolist())
+```
+
+```{python}
+# | echo: false
+# | label: fig-total-reading-time-current-year
+# | fig-cap: "Reading done for all books recorded in current year"
+year = years[-1]
+fig, ax = plt.subplots(
+    nrows=1,
+    sharex=True,
+    figsize=(8, 2),
+)
+df_pivot = get_year_data(df, year=year)
+
+Weekday, Week = np.mgrid[:df_pivot.shape[0]+1, :df_pivot.shape[1]+1]
+extreme_value = df_pivot.values.mean() + 3*df_pivot.values.std() 
+
+cmap = (plt.get_cmap('Greens')).copy()
+cmap.set_under('#EAEDF0')
+ax.set_aspect("equal")
+ax.pcolormesh(
+    Week,
+    Weekday,
+    df_pivot.values,
+    cmap=cmap,
+    edgecolor="w",
+    vmin=1/3600. / 2,   # more than half-second
+    vmax=extreme_value, # Color darkest to max
+)
+ax.set_xlim(0, df_pivot.shape[1])
+
+ax.set_yticks(
+    [0.5,1.5,2.5,3.5,4.5,5.5,6.5],
+    ['Mo','Tu','We','Th','Fr','Sa','Su',][::-1],
+)
+
+n_books = sum(df.groupby(['title'])['start'].min().dt.year == year)
+ax.set_title(
+  f'{year}: Read {n_books} Books over {df_pivot.values.sum():.1f}hrs'
+)
+ax.spines[['right', 'top']].set_visible(False)
+ax.set_xticks([])
+
+fig.autofmt_xdate()
+plt.tight_layout()
 
 ```
