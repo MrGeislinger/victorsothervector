@@ -87,30 +87,7 @@ for year,ax in zip(years[:-1], axs):
 
 fig.autofmt_xdate()
 plt.tight_layout()
-```
-
-
-```{python}
-# | echo: false
-%run _help_reading.py
-import pandas as pd
-import numpy as np
-import matplotlib as mlp
-
-df = pd.read_csv(
-  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
-  'data/reading/all_reading-clean.csv'
-)
-df.start = pd.to_datetime(
-    df.start,
-    format='%Y-%m-%d %H:%M:%S',
-)
-df.end = pd.to_datetime(
-    df.end,
-    format='%Y-%m-%d %H:%M:%S',
-)
-
-years = sorted(df.start.dt.year.unique().tolist())
+fig.patch.set_visible(False)
 ```
 
 ```{python}
@@ -156,5 +133,5 @@ ax.set_xticks([])
 
 fig.autofmt_xdate()
 plt.tight_layout()
-
+fig.patch.set_visible(False)
 ```
