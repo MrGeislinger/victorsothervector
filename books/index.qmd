@@ -26,6 +26,7 @@ creator: "@victorgeislinger"
 import pandas as pd
 import numpy as np
 import matplotlib as mlp
+from matplotlib import patheffects as pe
 
 df = pd.read_csv(
   'https://github.com/MrGeislinger/victorsothervector/raw/main/'
@@ -79,11 +80,32 @@ for year,ax in zip(years[:-1], axs):
         ['Mo','Tu','We','Th','Fr','Sa','Su',][::-1],
     )
     n_books = sum(df.groupby(['title'])['start'].min().dt.year == year)
-    ax.set_title(
-      f'{year}: Read {n_books} Books over {df_pivot.values.sum():.1f}hrs'
+
+    # Create the path effect for white outline
+    white_stroke_effect = pe.withStroke(
+        linewidth=2,
+        foreground='white',
     )
+
+    ax.set_title(
+        f'{year}: Read {n_books} Books over {df_pivot.values.sum():.1f}hrs',
+        path_effects=[white_stroke_effect],
+    )
+    # Spines
     ax.spines[['right', 'top']].set_visible(False)
+    ax.spines.left.set(path_effects=[white_stroke_effect])
+    ax.spines.bottom.set(path_effects=[white_stroke_effect])
+
+    # Axis labels & ticks    
     ax.set_xticks([])
+    ax.set_xticklabels(
+        ax.get_xticklabels(),
+        path_effects=[white_stroke_effect],
+    )
+    ax.set_yticklabels(
+        ax.get_yticklabels(),
+        path_effects=[white_stroke_effect],
+    )
 
 fig.autofmt_xdate()
 plt.tight_layout()
@@ -125,11 +147,32 @@ ax.set_yticks(
 )
 
 n_books = sum(df.groupby(['title'])['start'].min().dt.year == year)
-ax.set_title(
-  f'{year}: Read {n_books} Books over {df_pivot.values.sum():.1f}hrs'
+# Create the path effect for white outline
+white_stroke_effect = pe.withStroke(
+    linewidth=2,
+    foreground='white',
 )
+
+ax.set_title(
+    f'{year}: Read {n_books} Books over {df_pivot.values.sum():.1f}hrs',
+    path_effects=[white_stroke_effect],
+)
+
+# Spines
 ax.spines[['right', 'top']].set_visible(False)
+ax.spines.left.set(path_effects=[white_stroke_effect])
+ax.spines.bottom.set(path_effects=[white_stroke_effect])
+
+# Axis labels & ticks    
 ax.set_xticks([])
+ax.set_xticklabels(
+    ax.get_xticklabels(),
+    path_effects=[white_stroke_effect],
+)
+ax.set_yticklabels(
+    ax.get_yticklabels(),
+    path_effects=[white_stroke_effect],
+)
 
 fig.autofmt_xdate()
 plt.tight_layout()
