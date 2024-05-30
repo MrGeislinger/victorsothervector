@@ -128,14 +128,14 @@
   {
     "objectID": "books/book-how_to_read_a_book.html",
     "href": "books/book-how_to_read_a_book.html",
-    "title": "How to Read a Book",
+    "title": "How to Read a Book Revised and Updated",
     "section": "",
     "text": "Started: 2024-05-28T15:49:26Z\nEnded: 2024-05-29T19:38:04Z\nTotal Time Read: 3hrs 4mins 34secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"How to Read a Book\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for How to Read a Book"
   },
   {
     "objectID": "books/book-how_to_read_a_book.html#reading-journey",
     "href": "books/book-how_to_read_a_book.html#reading-journey",
-    "title": "How to Read a Book",
+    "title": "How to Read a Book Revised and Updated",
     "section": "",
     "text": "Started: 2024-05-28T15:49:26Z\nEnded: 2024-05-29T19:38:04Z\nTotal Time Read: 3hrs 4mins 34secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"How to Read a Book\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for How to Read a Book"
   },
@@ -1797,5 +1797,12 @@
     "title": "The Creative Act: A Way of Being",
     "section": "",
     "text": "Started: 2023-09-28T03:38:30Z\nEnded: 2023-09-28T05:06:30Z\nTotal Time Read: 1hrs 28mins 0secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Creative Act: A Way of Being\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Creative Act: A Way of Being"
+  },
+  {
+    "objectID": "books/reviews/review-how_to_read_a_book.html",
+    "href": "books/reviews/review-how_to_read_a_book.html",
+    "title": "How to Read a Book Revised and Updated",
+    "section": "",
+    "text": "Thoughts on How to Read a Book Revised and Updated\n\n\n\n\n\n\n\n\n\nOverview   This was an interesting book to read in a few ways. First was that the ‘revised & updated’ edition was updated in the 1970s from the 1940s book, so it had me wondering how much advice the book gives is now ‘common knowledge’. The other interesting aspect for me (which might be related to my earlier point) is how much of the techniques and strategies described are things I already do! But overall, I think this book was worth reading in that it at least had me thinknig more about how I read & what I want to read.   Buy at Bookshop (non-affiliate link / affiliate link)\n\n\n\nI couldn’t help but think about this book in how it fits in with a world 50 years after it was ‘revised’.\nIt was funny to read in the introduction from the 1970s on how TV & radio are becoming more prevalent and reflecting how much more there is in the modern world.\nAs I read, I could see snippets of what seems to be presented as a ‘new’ way approach to reading (beyond what is taught in school & university) that have been incorporated in my learning from the (relative) modern age. One big aspect was what I was told as ‘talking to the text’ which was repeated over and over again when going through grade school. But there was other advice that I know has been said to me in the past but I can almost guarantee is rarely followed, such as ‘skimming’ or ‘pre-reading’.\nThere were some frankly laughable parts that I either felt was obvious or even outdated such as the section on ‘How to Use a Dictionary’. There were also parts that I felt less inclined to follow for myself such as being dilligent in taking notes on a sections to reference later.\nA lot of the techniques described really fits well with trying to use books as research towards an overarching goal.\nThe steps detailed basically can be summarized to be: 1. Elementary Reading - Basically reading for understanding () 2. Inspectional Reading - Skimming & pre-reading to determine what the book is about (and if it’s worth reading for your ‘goal’) 3. Analytical Reading - Understanding the book as a whole and the arguments it presents and how convinced you are of them 4. Syntopical Reading - Taking in multiple references to broaden & deepen knowledge in the area\n\nThere was a lot that I discovered I already do such as varying my speed while reading a book to focus on the ‘important’/‘relevant’ parts. I actually think some of the techniques could be revised to something like ‘How to Watch a Video’.\nI don’t feel like this was a ‘mind-blowing’ read, but at least for me it has me reflecting on how I want to approach future reading. In the past, I’ve grouped books to read together based on subject and even read some simulataneously. This ‘How to Read a Book’ has me thinking about maybe trying out doing almost a ‘research’ read. One thing that comes to mind is maybe trying to read philosophy as if it was part of a class. (I always wanted to do more humanities like that while at university but never found the time.)\n‘How to Read a Book’ can be refreshing in just having you reflect what you want to get out of your reading."
   }
 ]
