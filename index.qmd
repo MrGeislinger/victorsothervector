@@ -23,7 +23,7 @@ outreach and teaching others about technical happenings.
 The other places I might as well mention:
 
 - **Bluesky** [@VictorsOtherVector](https://bsky.app/profile/victorsothervector.bsky.social): Hardly participate on there right now. It just hasn't been as fun as [Threads](https://www.threads.net/@victorsothervector).
-- **Mastodon** [@sigmoid.social/@VictorsOtherVector](https://sigmoid.social/@VictorsOtherVector): About the same as [Bluesky](https://bsky.app/profile/victorsothervector.bsky.social); you can check me out there if you like.
+- **Mastodon** <a rel="me" href="https://sigmoid.social/@VictorsOtherVector">@sigmoid.social/@VictorsOtherVector</a>: About the same as [Bluesky](https://bsky.app/profile/victorsothervector.bsky.social); you can check me out there if you like.
 
 :::{.callout-tip}
 ## An April Fools' Launch! Not a joke ; )
