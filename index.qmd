@@ -16,23 +16,15 @@ outreach and teaching others about technical happenings.
 - **GitHub** [@MrGeislinger](https://github.com/MrGeislinger) has been my central place where I host things. Might change but for now, you can see some of the things I've played around with over there.
 - **Threads** [@VictorsOtherVector](https://www.threads.net/@victorsothervector): Where I've been most active & have fun just having good conversations
 - **YouTube** [@VictorsOtherVector](https://www.youtube.com/@VictorsOtherVector): Been known to put out stuff sometimes usually about sofware engineering & ML/AI.
-- **[LinkedIn](https://www.linkedin.com/in/mrgeislinger/)**: This is the best place to actually message me; just be genuine and not a robot and I'll try to message back.
+- **[LinkedIn](https://www.linkedin.com/in/mrgeislinger/)**: This is the best place to actually message me; just be genuine & not a robot and I'll try to message back.
 
 :::
-
-The other places I might as well mention:
-
-- **Bluesky** [@VictorsOtherVector](https://bsky.app/profile/victorsothervector.bsky.social): Hardly participate on there right now. It just hasn't been as fun as [Threads](https://www.threads.net/@victorsothervector).
-- **Mastodon** <a rel="me" href="https://sigmoid.social/@VictorsOtherVector">@sigmoid.social/@VictorsOtherVector</a>: About the same as [Bluesky](https://bsky.app/profile/victorsothervector.bsky.social); you can check me out there if you like.
 
 :::{.callout-tip}
-## An April Fools' Launch! Not a joke ; )
+## Subscribe to Substack for a periodic newsletter!
 
-Newsletter & website launched!
-
-Subscribe to Substack for a periodic newsletter: [victorsothervector.substack.com](https://victorsothervector.substack.com/?r=2fco1e&utm_campaign=site_link)
-<br/>Expect summaries and other snippets I want to point to. I make no claims it will be at a 'regular' interval!
-:::
+Expect summaries and other snippets I want to point to. *I make no claims it will be at a 'regular' interval!*
+[victorsothervector.substack.com](https://victorsothervector.substack.com/?r=2fco1e&utm_campaign=site_link)
 
 ::: {layout="[30,70]"}
 [![](images/substack_subscribe.jpg)](https://victorsothervector.substack.com/?r=2fco1e&utm_campaign=site_img)
@@ -42,3 +34,12 @@ The newsletter is a free-to-view medium for me share what I find interesting, so
 The newsletter comes through on Substack but the actual material will more or less will be from other places such as this site ([victorsothervector.com](https://victorsothervector.com)) or YouTube.
 
 :::
+
+<!-- end {.callout-tip}-->
+:::
+
+The other places I might as well mention:
+
+- **Bluesky** [@VictorsOtherVector](https://bsky.app/profile/victorsothervector.bsky.social): Hardly participate on there right now. It just hasn't been as fun as [Threads](https://www.threads.net/@victorsothervector).
+- **Mastodon** <a rel="me" href="https://sigmoid.social/@VictorsOtherVector">@sigmoid.social/@VictorsOtherVector</a>: About the same as [Bluesky](https://bsky.app/profile/victorsothervector.bsky.social); you can check me out there if you like.
+
