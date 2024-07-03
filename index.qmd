@@ -7,16 +7,23 @@ creator: "@victorgeislinger"
 Hi, I'm Victor Geislinger!
 
 I'm a machine learning engineer / data scientist that also likes to think about
-outreach and teaching others about technical happenings.
+outreach and teaching others about technical stuff.
 
 ::: {layout="[30,70]"}
 
 <img style="border-radius:200px;" src="https://avatars.githubusercontent.com/MrGeislinger?v=4"/>
 
-- **GitHub** [@MrGeislinger](https://github.com/MrGeislinger) has been my central place where I host things. Might change but for now, you can see some of the things I've played around with over there.
-- **Threads** [@VictorsOtherVector](https://www.threads.net/@victorsothervector): Where I've been most active & have fun just having good conversations
-- **YouTube** [@VictorsOtherVector](https://www.youtube.com/@VictorsOtherVector): Been known to put out stuff sometimes usually about sofware engineering & ML/AI.
-- **[LinkedIn](https://www.linkedin.com/in/mrgeislinger/)**: This is the best place to actually message me; just be genuine & not a robot and I'll try to message back.
+- **GitHub** [@MrGeislinger](https://github.com/MrGeislinger): Been my central
+place where I host things that I work on. Might change but for now you can see
+some of the things I've played around with over there.
+- **Threads** [@VictorsOtherVector](https://www.threads.net/@victorsothervector):
+Where I've been most active & just having fun & good conversations.
+- **YouTube** [@VictorsOtherVector](https://www.youtube.com/@VictorsOtherVector):
+Been known to put out stuff sometimes. It's usually about sofware engineering &
+ML/AI.
+- **[LinkedIn](https://www.linkedin.com/in/mrgeislinger/)**: This is the best
+place to actually message me; just be genuine & not a robot and I'll try to
+message back.
 
 :::
 
@@ -29,9 +36,14 @@ Expect summaries and other snippets I want to point to. *I make no claims it wil
 ::: {layout="[30,70]"}
 [![](images/substack_subscribe.jpg)](https://victorsothervector.substack.com/?r=2fco1e&utm_campaign=site_img)
 
-The newsletter is a free-to-view medium for me share what I find interesting, so it'll mostly center around machine learning (AI), education, and language/linguistics. Other things may leak through but it'll be close to on brand.
+The newsletter is a free-to-view medium for me to share what I find interesting,
+so it'll mostly center around machine learning (AI), education, and
+language/linguistics. Other things may leak through but it'll be close to on
+brand.
 <br /><br />
-The newsletter comes through on Substack but the actual material will more or less will be from other places such as this site ([victorsothervector.com](https://victorsothervector.com)) or YouTube.
+The newsletter comes through on Substack but the actual material will more or
+less will be from other places such as this site
+([victorsothervector.com](https://victorsothervector.com)) or YouTube.
 
 :::
 
@@ -40,6 +52,12 @@ The newsletter comes through on Substack but the actual material will more or le
 
 The other places I might as well mention:
 
-- **Bluesky** [@VictorsOtherVector](https://bsky.app/profile/victorsothervector.bsky.social): Hardly participate on there right now. It just hasn't been as fun as [Threads](https://www.threads.net/@victorsothervector).
-- **Mastodon** <a rel="me" href="https://sigmoid.social/@VictorsOtherVector">@sigmoid.social/@VictorsOtherVector</a>: About the same as [Bluesky](https://bsky.app/profile/victorsothervector.bsky.social); you can check me out there if you like.
-
+- **Bluesky** 
+[@VictorsOtherVector](https://bsky.app/profile/victorsothervector.bsky.social):
+Hardly participate on there right now. It just hasn't been as fun as
+[Threads](https://www.threads.net/@victorsothervector).
+- **Mastodon**
+<a rel="me" href="https://sigmoid.social/@VictorsOtherVector">
+@sigmoid.social/@VictorsOtherVector</a>: About the same as
+[Bluesky](https://bsky.app/profile/victorsothervector.bsky.social); you can
+check me out there if you like.
