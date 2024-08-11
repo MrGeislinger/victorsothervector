@@ -3,6 +3,7 @@
     "listing": "/books/index.html",
     "items": [
       "/books/book-80000_hours.html",
+      "/books/book-a_mind_for_numbers.html",
       "/books/book-ai_and_machine_learning_for_coders.html",
       "/books/book-acoustic_and_auditory_phonetics.html",
       "/books/book-algorithms_to_live_by.html",
@@ -38,6 +39,7 @@
       "/books/book-dune_messiah.html",
       "/books/book-dune.html",
       "/books/book-efficient_linux_at_the_command_line.html",
+      "/books/book-endymion.html",
       "/books/book-exhalation–_stories.html",
       "/books/book-feature_engineering_for_machine_learning.html",
       "/books/book-fluent_python,_2nd_ed.html",
