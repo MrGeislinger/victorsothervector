@@ -1,0 +1,42 @@
+
+---
+title: "*Animorphs: #07.5 Megamorphs #1 - The Andalite's Gift*"
+book:
+  title: "Animorphs: #07.5 Megamorphs #1 - The Andalite's Gift"
+  title_simplified: "animorphs–_#07.5_megamorphs_#1_-_the_andalites_gift"
+reading:
+  start: 2024-11-11T19:40:09Z
+  end: 2024-11-11T20:58:16Z
+  duration_total_seconds: 4687
+  duration_hrs: 1
+  duration_mins: 18
+  duration_secs: 7
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Animorphs: #07.5 Megamorphs #1 - The Andalite's Gift"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Animorphs: #07.5 Megamorphs #1 - The Andalite's Gift"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```
