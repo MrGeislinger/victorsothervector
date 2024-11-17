@@ -10,8 +10,14 @@ def one_title_data(data: pd.DataFrame, book_name: str | None = None) -> pd.DataF
         data_filtered = data[data.title == book_name].copy()
 
     data_filtered.duration = pd.to_timedelta(data_filtered.duration)
-    data_filtered.start = pd.to_datetime(data_filtered.start)
-    data_filtered.end = pd.to_datetime(data_filtered.end)
+    data_filtered.start = pd.to_datetime(
+        data_filtered.start,
+        format="%Y-%m-%d %H:%M:%S",
+    )
+    data_filtered.end = pd.to_datetime(
+        data_filtered.end,
+        format="%Y-%m-%d %H:%M:%S",
+    )
 
     return data_filtered
 
