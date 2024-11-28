@@ -186,7 +186,7 @@ class BlueskyCommentsSection extends HTMLElement {
         </a>
         <p class="comment-text">${this.escapeHTML(text)}</p>
         <small class="comment-meta">
-          ${reply.post.likeCount ?? 0} likes • ${reply.post.repostCount ?? 0} reposts • ${reply.post.replyCount ?? 0} replies
+          ${reply.post.likeCount ?? 0} likes • ${reply.post.repostCount ?? 0 + reply.post.quoteCount ?? 0} reposts • ${reply.post.replyCount ?? 0} replies
         </small>
       </div>
     `

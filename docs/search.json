@@ -2434,5 +2434,26 @@
     "title": "The Creative Act: A Way of Being",
     "section": "",
     "text": "Started: 2023-09-28T03:38:30Z\nEnded: 2023-09-28T05:06:30Z\nTotal Time Read: 1hrs 28mins 0secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Creative Act: A Way of Being\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Creative Act: A Way of Being"
+  },
+  {
+    "objectID": "books/reviews/review-animorphs_x2315–_the_escape.html",
+    "href": "books/reviews/review-animorphs_x2315–_the_escape.html",
+    "title": "Animorphs #15: The Escape",
+    "section": "",
+    "text": "Thoughts on Animorphs #15: The Escape\n\n\n\n\n\n\n\n\n\nOverview   Marco narrates the team going to underwater a Yerk facility to create smarter sharks so the Yerks can take over an amphibious psychic alien species. The find Marco’s mother controlled by a top Yerk leading the effort there.  \n\n\n\nReally exploring the whole “let’s control animals” from the last book\nOf all the ridiculous parts of this book, the one that bothered me is that Marco has just casually showed himself to Visser One (Marco’s mom controlled by a Yerk). Then on top of that a psychic Leeran-controller saw that Marco was human but not clear if that Yerk survived to tell Visser One they aren’t all Andalites.\nI know it feels silly to focus on it, but it’s wild that they just exposed themselves to Visser One.\n\n\n\n\n\n\n\nBluesky Comments"
+  },
+  {
+    "objectID": "books/book-animorphs_x2315–_the_escape.html",
+    "href": "books/book-animorphs_x2315–_the_escape.html",
+    "title": "Animorphs #15: The Escape",
+    "section": "",
+    "text": "Started: 2024-11-28T06:02:51Z\nEnded: 2024-11-28T07:18:21Z\nTotal Time Read: 1hrs 15mins 30secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #15: The Escape\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #15: The Escape"
+  },
+  {
+    "objectID": "books/book-animorphs_x2315–_the_escape.html#reading-journey",
+    "href": "books/book-animorphs_x2315–_the_escape.html#reading-journey",
+    "title": "Animorphs #15: The Escape",
+    "section": "",
+    "text": "Started: 2024-11-28T06:02:51Z\nEnded: 2024-11-28T07:18:21Z\nTotal Time Read: 1hrs 15mins 30secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #15: The Escape\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #15: The Escape"
   }
 ]
