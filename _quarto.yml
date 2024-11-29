@@ -16,7 +16,7 @@ website:
       - icon: github
         href: https://github.com/MrGeislinger
       - text: "{{< iconify simple-icons bluesky >}}"
-        href: https://bsky.app/profile/victorsothervector.bsky.social
+        href: https://bsky.app/profile/did:plc:jfda6xfy4ncaf72omkvrbkko
       - icon: linkedin 
         href: https://www.linkedin.com/in/mrgeislinger/
     left:

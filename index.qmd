@@ -14,7 +14,7 @@ outreach and teaching others about technical stuff.
 <img style="border-radius:200px;" src="https://avatars.githubusercontent.com/MrGeislinger?v=4"/>
 
 - **Bluesky** 
-[@VictorsOtherVector.bsky.social](https://bsky.app/profile/victorsothervector.bsky.social):
+[@VictorsVector.com](https://bsky.app/profile/did:plc:jfda6xfy4ncaf72omkvrbkko):
 Really have leaned into it after the influx of people in late October / early
 November. I'm pretty sure this will be where I'll be hanging out for the
 foreseeable! 
@@ -58,9 +58,9 @@ The other places I might as well mention:
 - **Mastodon**
 <a rel="me" href="https://sigmoid.social/@VictorsOtherVector">
 @sigmoid.social/@VictorsOtherVector</a>: You can check me out there if you like
-but [Bluesky](https://bsky.app/profile/victorsothervector.bsky.social) is where
+but [Bluesky](https://bsky.app/profile/did:plc:jfda6xfy4ncaf72omkvrbkko) is where
 I'll likely be at
 - **Threads** [@VictorsOtherVector](https://www.threads.net/@victorsothervector):
-I started on Threads a while ago and it defintely had its ups. But it just
+I started on Threads a while ago and it definitely had its ups. But it just
 hasn't hit the right way in the long run with community. I'll probably not
 really be on it much at all, but we'll see.
