@@ -125,14 +125,11 @@ class BlueskyCommentsSection extends HTMLElement {
   }
 
   render () {
-    if (!this.thread || !this.thread.replies) {
-      this.renderError('No comments found')
-      return
-    }
-
-    const sortedReplies = this.#filterSortReplies(this.thread.replies)
-    if (!sortedReplies || sortedReplies.length === 0) {
-      this.renderError('No comments found')
+    console.log('BEGIN')
+    
+    if (!this.thread) {
+      console.log('No Thread')
+      this.renderError('No Thread Found')
       return
     }
 
@@ -152,18 +149,22 @@ class BlueskyCommentsSection extends HTMLElement {
         Show more comments
       </button>
     `
+    
     comments.firstElementChild.insertAdjacentElement(
       'beforebegin',
       this.renderStats(this.thread)
     )
 
+    // This will be empty if no replies by stats will still appear
+    const sortedReplies = this.#filterSortReplies(this.thread.replies)
     const commentsContainer = comments.querySelector('#comments')
     sortedReplies.slice(0, this.nVisible).forEach(reply => {
       commentsContainer.appendChild(this.createCommentElement(reply, 0))
     })
 
+    // Button show more if available (not empty replies)
     const showMoreButton = comments.querySelector('#show-more')
-    if (this.nVisible >= sortedReplies.length) {
+    if (this.nVisible >= sortedReplies.length && this.thread.replies.length == 0) {
       showMoreButton.style.display = 'none'
     }
     showMoreButton.addEventListener('click', () => {
