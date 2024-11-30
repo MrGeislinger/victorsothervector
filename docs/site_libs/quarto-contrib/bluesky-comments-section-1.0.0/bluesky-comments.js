@@ -85,16 +85,36 @@ class BlueskyCommentsSection extends HTMLElement {
   }
 
   render () {
-    if (!this.thread || !this.thread.replies) {
-      this.renderError('No comments found')
-      return
-    }
+    // if (!this.thread || !this.thread.replies) {
+    //   this.renderError(`
+    //   <p class="reply-info">
+    //     <a href="https://bsky.app/profile/${this.thread.post?.author?.did}/post/${this.thread.post?.uri.split('/').pop()}" target="_blank" rel="noopener noreferrer">
+    //     Reply on Bluesky</a>
+    //     to join the conversation.
+    //   </p>
+    //   <div id="comments"></div>
+    //   <button id="show-more">
+    //     Show more comments
+    //   </button>
+    // `)
+    //   return
+    // }
 
-    const sortedReplies = this.#filterSortReplies(this.thread.replies)
-    if (!sortedReplies || sortedReplies.length === 0) {
-      this.renderError('No comments found')
-      return
-    }
+    // const sortedReplies = this.#filterSortReplies(this.thread.replies)
+    // if (!sortedReplies || sortedReplies.length === 0) {
+    //   this.renderError(`
+    //     <p class="reply-info">
+    //       <a href="https://bsky.app/profile/${this.thread.post?.author?.did}/post/${this.thread.post?.uri.split('/').pop()}" target="_blank" rel="noopener noreferrer">
+    //       Reply on Bluesky</a>
+    //       to join the conversation.
+    //     </p>
+    //     <div id="comments"></div>
+    //     <button id="show-more">
+    //       Show more comments
+    //     </button>
+    //   `)
+    //   return
+    // }
 
     const comments = document.createElement('comments')
     comments.innerHTML = `
@@ -108,6 +128,7 @@ class BlueskyCommentsSection extends HTMLElement {
         Show more comments
       </button>
     `
+
     comments.firstElementChild.insertAdjacentElement('beforebegin', this.renderStats(this.thread))
 
     const commentsContainer = comments.querySelector('#comments')
