@@ -48,7 +48,7 @@ class BlueskyCommentsSection extends HTMLElement {
 
   #convertUri (uri) {
     if (uri.startsWith('at://')) return uri
-
+    console.log(uri)
     const match = uri.match(/bsky\.app\/profile\/([\w.]+)\/post\/([\w]+)/)
     if (match) {
       const [, did, postId] = match
@@ -71,8 +71,11 @@ class BlueskyCommentsSection extends HTMLElement {
   }
 
   async loadThread (uri) {
+    const thread = await this.fetchThread(uri)
+    console.log('THREAD', thread)
     try {
       const thread = await this.fetchThread(uri)
+      console.log('THREAD', thread)
       this.#logAtUri(thread)
       this.thread = thread
       this.hiddenReplies =
@@ -80,6 +83,7 @@ class BlueskyCommentsSection extends HTMLElement {
       this.render()
     } catch (err) {
       console.error('[bluesky-comments] Error loading thread:', err)
+      console.error('URI', uri)
       this.renderError('Error loading comments')
     }
   }
