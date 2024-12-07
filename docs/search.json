@@ -18,7 +18,7 @@
     "href": "books/reviews/review-animorphs_x2321–_the_threat.html",
     "title": "Animorphs #21: The Threat",
     "section": "",
-    "text": "Thoughts on Animorphs #21: The Threat\n\n\n\n\n\n\n\n\n\nOverview   A two-part to be continued! Things are going down  \n\n\n\nSurpise, he’s not great\nHonestly wondering where this goes now\n\n\n\n\n\n\n\nBluesky Comments"
+    "text": "Thoughts on Animorphs #21: The Threat\n\n\n\n\n\n\n\n\n\nOverview   A two-part to be continued! Things are going down  \n\n\n\nSurprise, he’s not great\nHonestly wondering where this goes now\n\n\n\n\n\n\n\nBluesky Comments"
   },
   {
     "objectID": "books/reviews/review-the_molecule_of_more.html",
@@ -70,144 +70,151 @@
     "text": "Thoughts on Animorphs #11: The Forgotten\n\n\n\n\n\n\n\n\n\nOverview   Probably wildest plot yet between ‘alternative timeline’ & ‘it was all a dream’.  \n\n\n\n\n\n\n\n\n\n\nBluesky Comments"
   },
   {
-    "objectID": "books/reviews/review-animorphs_x2313–_the_change.html",
-    "href": "books/reviews/review-animorphs_x2313–_the_change.html",
-    "title": "Animorphs #13: The Change",
-    "section": "",
-    "text": "Thoughts on Animorphs #13: The Change\n\n\n\n\n\n\n\n\n\nOverview   Tobias narrates and gets back their morphing power… kinda  \n\n\n\nWar changes a person\nThe Ellimist is a tricky little fella\n\n\n\n\n\n\n\nBluesky Comments"
-  },
-  {
-    "objectID": "books/reviews/review-lurking.html",
-    "href": "books/reviews/review-lurking.html",
-    "title": "Lurking: How a Person Became a User",
-    "section": "",
-    "text": "Thoughts on Lurking: How a Person Became a User\n\n\n\n\n\n\n\n\n\nOverview   Goes through the history from BBS to more modern social media platforms. Really about human interaction & relatationships, even if done digitally.   Buy at Bookshop (non-affiliate link / affiliate link)"
-  },
-  {
-    "objectID": "books/reviews/review-the_rise_of_endymion.html",
-    "href": "books/reviews/review-the_rise_of_endymion.html",
-    "title": "The Rise of Endymion",
-    "section": "",
-    "text": "Thoughts on The Rise of Endymion\n\n\n\n\n\n\n\n\n\nOverview   The final book from the Hyperion Cantos.  \n\n\n\nNot bad but I’m happy for it to be dones\nIs it bad when you see the final end coming from 300 pages away?\n\n\n\n\n\n\n\nBluesky Comments"
-  },
-  {
-    "objectID": "books/reviews/review-animorphs–_x2309_the_secret.html",
-    "href": "books/reviews/review-animorphs–_x2309_the_secret.html",
-    "title": "Animorphs: #09 The Secret",
-    "section": "",
-    "text": "Thoughts on Animorphs: #09 The Secret\n\n\n\n\n\n\n\n\n\nOverview   Cassie narrates the story.  \n\n\n\nSkunks are cute\nBut skunks also have no fear\n\n\n\n\n\n\n\nBluesky Comments"
-  },
-  {
-    "objectID": "books/book-an_immense_world.html",
-    "href": "books/book-an_immense_world.html",
-    "title": "An Immense World",
-    "section": "",
-    "text": "Started: 2024-08-30T05:49:25Z\nEnded: 2024-09-19T20:48:56Z\nTotal Time Read: 5hrs 33mins 4secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"An Immense World\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for An Immense World"
-  },
-  {
-    "objectID": "books/book-an_immense_world.html#reading-journey",
-    "href": "books/book-an_immense_world.html#reading-journey",
-    "title": "An Immense World",
-    "section": "",
-    "text": "Started: 2024-08-30T05:49:25Z\nEnded: 2024-09-19T20:48:56Z\nTotal Time Read: 5hrs 33mins 4secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"An Immense World\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for An Immense World"
-  },
-  {
-    "objectID": "books/book-gpt-3.html",
-    "href": "books/book-gpt-3.html",
-    "title": "GPT-3",
-    "section": "",
-    "text": "Started: 2022-12-13T21:18:42Z\nEnded: 2022-12-19T22:24:27Z\nTotal Time Read: 1hrs 47mins 12secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"GPT-3\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for GPT-3"
-  },
-  {
-    "objectID": "books/book-gpt-3.html#reading-journey",
-    "href": "books/book-gpt-3.html#reading-journey",
-    "title": "GPT-3",
-    "section": "",
-    "text": "Started: 2022-12-13T21:18:42Z\nEnded: 2022-12-19T22:24:27Z\nTotal Time Read: 1hrs 47mins 12secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"GPT-3\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for GPT-3"
-  },
-  {
-    "objectID": "books/book-animorphs_x2316–_the_warning.html",
-    "href": "books/book-animorphs_x2316–_the_warning.html",
+    "objectID": "books/reviews/review-animorphs_x2316–_the_warning.html",
+    "href": "books/reviews/review-animorphs_x2316–_the_warning.html",
     "title": "Animorphs #16: The Warning",
     "section": "",
-    "text": "Started: 2024-11-28T21:09:09Z\nEnded: 2024-11-28T23:24:25Z\nTotal Time Read: 1hrs 5mins 24secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #16: The Warning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #16: The Warning"
+    "text": "Thoughts on Animorphs #16: The Warning\n\n\n\n\n\n\n\n\n\nOverview   The team discovers a chat room talking about Yerks so they go investigate the equivalent of AOL to get the actual screen name identities.\n\n\n\n\nJake almost dies as a fly and clearly has a developed a new fear and perhaps PTSD (at least for this story).  \n\n\n\nYerks can have ‘twins’!\nClassic evil twin brother, or less evil? Not sure exactly on this one…\n\n\n\n\n\n\n\nBluesky Comments"
   },
   {
-    "objectID": "books/book-animorphs_x2316–_the_warning.html#reading-journey",
-    "href": "books/book-animorphs_x2316–_the_warning.html#reading-journey",
-    "title": "Animorphs #16: The Warning",
-    "section": "",
-    "text": "Started: 2024-11-28T21:09:09Z\nEnded: 2024-11-28T23:24:25Z\nTotal Time Read: 1hrs 5mins 24secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #16: The Warning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #16: The Warning"
-  },
-  {
-    "objectID": "books/book-animorphs–_x2309_the_secret.html",
-    "href": "books/book-animorphs–_x2309_the_secret.html",
-    "title": "Animorphs: #09 The Secret",
-    "section": "",
-    "text": "Started: 2024-11-12T16:19:57Z\nEnded: 2024-11-12T17:43:08Z\nTotal Time Read: 0hrs 58mins 33secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs: #09 The Secret\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs: #09 The Secret"
-  },
-  {
-    "objectID": "books/book-animorphs–_x2309_the_secret.html#reading-journey",
-    "href": "books/book-animorphs–_x2309_the_secret.html#reading-journey",
-    "title": "Animorphs: #09 The Secret",
-    "section": "",
-    "text": "Started: 2024-11-12T16:19:57Z\nEnded: 2024-11-12T17:43:08Z\nTotal Time Read: 0hrs 58mins 33secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs: #09 The Secret\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs: #09 The Secret"
-  },
-  {
-    "objectID": "books/book-endymion.html",
-    "href": "books/book-endymion.html",
-    "title": "Endymion",
-    "section": "",
-    "text": "Started: 2024-07-17T19:47:46Z\nEnded: 2024-08-28T16:36:23Z\nTotal Time Read: 6hrs 32mins 33secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Endymion\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Endymion"
-  },
-  {
-    "objectID": "books/book-endymion.html#reading-journey",
-    "href": "books/book-endymion.html#reading-journey",
-    "title": "Endymion",
-    "section": "",
-    "text": "Started: 2024-07-17T19:47:46Z\nEnded: 2024-08-28T16:36:23Z\nTotal Time Read: 6hrs 32mins 33secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Endymion\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Endymion"
-  },
-  {
-    "objectID": "books/book-animorphs_x2320–_the_discovery.html",
-    "href": "books/book-animorphs_x2320–_the_discovery.html",
+    "objectID": "books/reviews/review-animorphs_x2320–_the_discovery.html",
+    "href": "books/reviews/review-animorphs_x2320–_the_discovery.html",
     "title": "Animorphs #20: The Discovery",
     "section": "",
-    "text": "Started: 2024-12-04T16:16:01Z\nEnded: 2024-12-04T21:00:38Z\nTotal Time Read: 0hrs 59mins 59secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #20: The Discovery\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #20: The Discovery"
+    "text": "Thoughts on Animorphs #20: The Discovery\n\n\n\n\n\n\n\n\n\nOverview   So new Animorph team member? Not going to end well…  \n\n\n\n‘With great power comes great responsibility’\nDavid giving out so many red flags\n\n\n\n\n\n\n\nBluesky Comments"
   },
   {
-    "objectID": "books/book-animorphs_x2320–_the_discovery.html#reading-journey",
-    "href": "books/book-animorphs_x2320–_the_discovery.html#reading-journey",
-    "title": "Animorphs #20: The Discovery",
+    "objectID": "books/reviews/review-animorphs_x2318–_the_decision.html",
+    "href": "books/reviews/review-animorphs_x2318–_the_decision.html",
+    "title": "Animorphs #18: The Decision",
     "section": "",
-    "text": "Started: 2024-12-04T16:16:01Z\nEnded: 2024-12-04T21:00:38Z\nTotal Time Read: 0hrs 59mins 59secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #20: The Discovery\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #20: The Discovery"
+    "text": "Thoughts on Animorphs #18: The Decision\n\n\n\n\n\n\n\n\n\nOverview   Team gets transferred to Zero Space (anti-space) because ‘technology’ and able to go fight with the Andalites in an important battle.  \n\n\n\nAndalite traitors exist!\nOh so they discover there are traitors within the Andalites. Also, Ax realizes how much the humans’ world is his new home.\nThe humans are relatively chill being on their first alien planet…\n\n\n\n\n\n\n\nBluesky Comments"
   },
   {
-    "objectID": "books/book-yellowface.html",
-    "href": "books/book-yellowface.html",
-    "title": "Yellowface",
+    "objectID": "books/reviews/review-animorphs_x2319–_the_departure.html",
+    "href": "books/reviews/review-animorphs_x2319–_the_departure.html",
+    "title": "Animorphs #19: The Departure",
     "section": "",
-    "text": "Started: 2024-04-19T20:47:42Z\nEnded: 2024-04-21T00:48:42Z\nTotal Time Read: 3hrs 48mins 31secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Yellowface\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Yellowface"
+    "text": "Thoughts on Animorphs #19: The Departure\n\n\n\n\n\n\n\n\n\nOverview   Cassie addresses the issue with being in war when there are thinking creatures being killed in each battle  \n\n\n\nThis was beautiful considering it’s also a book for kids\nIMO knowing the ending of the series kind of makes this book a bit more special\n\n\n\n\n\n\n\nBluesky Comments"
   },
   {
-    "objectID": "books/book-yellowface.html#reading-journey",
-    "href": "books/book-yellowface.html#reading-journey",
-    "title": "Yellowface",
+    "objectID": "books/reviews/review-animorphs_x2317–_the_underground.html",
+    "href": "books/reviews/review-animorphs_x2317–_the_underground.html",
+    "title": "Animorphs #17: The Underground",
     "section": "",
-    "text": "Started: 2024-04-19T20:47:42Z\nEnded: 2024-04-21T00:48:42Z\nTotal Time Read: 3hrs 48mins 31secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Yellowface\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Yellowface"
+    "text": "Thoughts on Animorphs #17: The Underground\n\n\n\n\n\n\n\n\n\nOverview   Oh so apparently certain types of instant oatmeal are like a drug to Yerks and eventually drive them insane while a human can be in control.  \n\n\n\nYerks get magically addicted to oatmeal\nRachel shows that although she acts fearless, she’s scared inside but almost addicted to the danger of war.\nThis one makes me feel sad for Rachel and what fighting has done to her mind\n\n\n\n\n\n\n\nBluesky Comments"
   },
   {
-    "objectID": "books/book-reinforcement_learning.html",
-    "href": "books/book-reinforcement_learning.html",
-    "title": "Reinforcement Learning",
+    "objectID": "books/book-docker_cookbook.html",
+    "href": "books/book-docker_cookbook.html",
+    "title": "Docker Cookbook",
     "section": "",
-    "text": "Started: 2023-04-28T13:25:00Z\nEnded: 2024-04-25T15:27:23Z\nTotal Time Read: 4hrs 46mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Reinforcement Learning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Reinforcement Learning"
+    "text": "Started: 2022-02-25T16:56:09Z\nEnded: 2022-02-28T20:48:32Z\nTotal Time Read: 3hrs 0mins 45secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Docker Cookbook\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Docker Cookbook"
   },
   {
-    "objectID": "books/book-reinforcement_learning.html#reading-journey",
-    "href": "books/book-reinforcement_learning.html#reading-journey",
-    "title": "Reinforcement Learning",
+    "objectID": "books/book-docker_cookbook.html#reading-journey",
+    "href": "books/book-docker_cookbook.html#reading-journey",
+    "title": "Docker Cookbook",
     "section": "",
-    "text": "Started: 2023-04-28T13:25:00Z\nEnded: 2024-04-25T15:27:23Z\nTotal Time Read: 4hrs 46mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Reinforcement Learning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Reinforcement Learning"
+    "text": "Started: 2022-02-25T16:56:09Z\nEnded: 2022-02-28T20:48:32Z\nTotal Time Read: 3hrs 0mins 45secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Docker Cookbook\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Docker Cookbook"
+  },
+  {
+    "objectID": "books/book-data_science_at_the_command_line.html",
+    "href": "books/book-data_science_at_the_command_line.html",
+    "title": "Data Science at the Command Line",
+    "section": "",
+    "text": "Started: 2022-02-09T19:47:39Z\nEnded: 2022-02-11T16:03:12Z\nTotal Time Read: 3hrs 19mins 50secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Data Science at the Command Line\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Data Science at the Command Line"
+  },
+  {
+    "objectID": "books/book-data_science_at_the_command_line.html#reading-journey",
+    "href": "books/book-data_science_at_the_command_line.html#reading-journey",
+    "title": "Data Science at the Command Line",
+    "section": "",
+    "text": "Started: 2022-02-09T19:47:39Z\nEnded: 2022-02-11T16:03:12Z\nTotal Time Read: 3hrs 19mins 50secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Data Science at the Command Line\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Data Science at the Command Line"
+  },
+  {
+    "objectID": "books/book-practical_weak_supervision.html",
+    "href": "books/book-practical_weak_supervision.html",
+    "title": "Practical Weak Supervision",
+    "section": "",
+    "text": "Started: 2022-02-19T20:41:05Z\nEnded: 2022-02-20T17:10:57Z\nTotal Time Read: 2hrs 2mins 9secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Practical Weak Supervision\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Practical Weak Supervision"
+  },
+  {
+    "objectID": "books/book-practical_weak_supervision.html#reading-journey",
+    "href": "books/book-practical_weak_supervision.html#reading-journey",
+    "title": "Practical Weak Supervision",
+    "section": "",
+    "text": "Started: 2022-02-19T20:41:05Z\nEnded: 2022-02-20T17:10:57Z\nTotal Time Read: 2hrs 2mins 9secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Practical Weak Supervision\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Practical Weak Supervision"
+  },
+  {
+    "objectID": "books/book-mad_honey.html",
+    "href": "books/book-mad_honey.html",
+    "title": "Mad Honey",
+    "section": "",
+    "text": "Started: 2024-05-30T15:44:09Z\nEnded: 2024-05-31T18:49:02Z\nTotal Time Read: 5hrs 37mins 38secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Mad Honey\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Mad Honey"
+  },
+  {
+    "objectID": "books/book-mad_honey.html#reading-journey",
+    "href": "books/book-mad_honey.html#reading-journey",
+    "title": "Mad Honey",
+    "section": "",
+    "text": "Started: 2024-05-30T15:44:09Z\nEnded: 2024-05-31T18:49:02Z\nTotal Time Read: 5hrs 37mins 38secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Mad Honey\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Mad Honey"
+  },
+  {
+    "objectID": "books/book-generative_deep_learning,_2nd_ed.html",
+    "href": "books/book-generative_deep_learning,_2nd_ed.html",
+    "title": "Generative Deep Learning, 2nd Ed",
+    "section": "",
+    "text": "Started: 2023-06-23T17:09:16Z\nEnded: 2023-07-30T16:44:07Z\nTotal Time Read: 4hrs 32mins 41secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Generative Deep Learning, 2nd Ed\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Generative Deep Learning, 2nd Ed"
+  },
+  {
+    "objectID": "books/book-generative_deep_learning,_2nd_ed.html#reading-journey",
+    "href": "books/book-generative_deep_learning,_2nd_ed.html#reading-journey",
+    "title": "Generative Deep Learning, 2nd Ed",
+    "section": "",
+    "text": "Started: 2023-06-23T17:09:16Z\nEnded: 2023-07-30T16:44:07Z\nTotal Time Read: 4hrs 32mins 41secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Generative Deep Learning, 2nd Ed\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Generative Deep Learning, 2nd Ed"
+  },
+  {
+    "objectID": "books/book-the_seven_principles_for_making_marriage_work.html",
+    "href": "books/book-the_seven_principles_for_making_marriage_work.html",
+    "title": "The Seven Principles for Making Marriage Work",
+    "section": "",
+    "text": "Started: 2024-05-01T15:55:23Z\nEnded: 2024-05-02T20:55:01Z\nTotal Time Read: 3hrs 19mins 53secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Seven Principles for Making Marriage Work\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Seven Principles for Making Marriage Work"
+  },
+  {
+    "objectID": "books/book-the_seven_principles_for_making_marriage_work.html#reading-journey",
+    "href": "books/book-the_seven_principles_for_making_marriage_work.html#reading-journey",
+    "title": "The Seven Principles for Making Marriage Work",
+    "section": "",
+    "text": "Started: 2024-05-01T15:55:23Z\nEnded: 2024-05-02T20:55:01Z\nTotal Time Read: 3hrs 19mins 53secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Seven Principles for Making Marriage Work\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Seven Principles for Making Marriage Work"
+  },
+  {
+    "objectID": "books/book-none_of_the_above.html",
+    "href": "books/book-none_of_the_above.html",
+    "title": "None of the Above",
+    "section": "",
+    "text": "Started: 2024-06-25T05:45:07Z\nEnded: 2024-06-26T20:45:48Z\nTotal Time Read: 2hrs 40mins 12secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"None of the Above\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for None of the Above"
+  },
+  {
+    "objectID": "books/book-none_of_the_above.html#reading-journey",
+    "href": "books/book-none_of_the_above.html#reading-journey",
+    "title": "None of the Above",
+    "section": "",
+    "text": "Started: 2024-06-25T05:45:07Z\nEnded: 2024-06-26T20:45:48Z\nTotal Time Read: 2hrs 40mins 12secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"None of the Above\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for None of the Above"
+  },
+  {
+    "objectID": "books/book-animorphs_x2322–_the_solution.html",
+    "href": "books/book-animorphs_x2322–_the_solution.html",
+    "title": "Animorphs #22: The Solution",
+    "section": "",
+    "text": "Started: 2024-12-06T20:18:45Z\nEnded: 2024-12-06T21:29:24Z\nTotal Time Read: 1hrs 10mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #22: The Solution\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #22: The Solution"
+  },
+  {
+    "objectID": "books/book-animorphs_x2322–_the_solution.html#reading-journey",
+    "href": "books/book-animorphs_x2322–_the_solution.html#reading-journey",
+    "title": "Animorphs #22: The Solution",
+    "section": "",
+    "text": "Started: 2024-12-06T20:18:45Z\nEnded: 2024-12-06T21:29:24Z\nTotal Time Read: 1hrs 10mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #22: The Solution\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #22: The Solution"
   },
   {
     "objectID": "books/book-designing_machine_learning_systems.html",
@@ -2408,137 +2415,151 @@
     "text": "Started: 2022-04-18T19:38:41Z\nEnded: 2022-04-23T21:20:14Z\nTotal Time Read: 2hrs 36mins 16secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"TensorFlow2 Pocket Reference\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for TensorFlow2 Pocket Reference"
   },
   {
-    "objectID": "books/book-none_of_the_above.html",
-    "href": "books/book-none_of_the_above.html",
-    "title": "None of the Above",
+    "objectID": "books/book-reinforcement_learning.html",
+    "href": "books/book-reinforcement_learning.html",
+    "title": "Reinforcement Learning",
     "section": "",
-    "text": "Started: 2024-06-25T05:45:07Z\nEnded: 2024-06-26T20:45:48Z\nTotal Time Read: 2hrs 40mins 12secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"None of the Above\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for None of the Above"
+    "text": "Started: 2023-04-28T13:25:00Z\nEnded: 2024-04-25T15:27:23Z\nTotal Time Read: 4hrs 46mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Reinforcement Learning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Reinforcement Learning"
   },
   {
-    "objectID": "books/book-none_of_the_above.html#reading-journey",
-    "href": "books/book-none_of_the_above.html#reading-journey",
-    "title": "None of the Above",
+    "objectID": "books/book-reinforcement_learning.html#reading-journey",
+    "href": "books/book-reinforcement_learning.html#reading-journey",
+    "title": "Reinforcement Learning",
     "section": "",
-    "text": "Started: 2024-06-25T05:45:07Z\nEnded: 2024-06-26T20:45:48Z\nTotal Time Read: 2hrs 40mins 12secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"None of the Above\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for None of the Above"
+    "text": "Started: 2023-04-28T13:25:00Z\nEnded: 2024-04-25T15:27:23Z\nTotal Time Read: 4hrs 46mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Reinforcement Learning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Reinforcement Learning"
   },
   {
-    "objectID": "books/book-the_seven_principles_for_making_marriage_work.html",
-    "href": "books/book-the_seven_principles_for_making_marriage_work.html",
-    "title": "The Seven Principles for Making Marriage Work",
+    "objectID": "books/book-yellowface.html",
+    "href": "books/book-yellowface.html",
+    "title": "Yellowface",
     "section": "",
-    "text": "Started: 2024-05-01T15:55:23Z\nEnded: 2024-05-02T20:55:01Z\nTotal Time Read: 3hrs 19mins 53secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Seven Principles for Making Marriage Work\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Seven Principles for Making Marriage Work"
+    "text": "Started: 2024-04-19T20:47:42Z\nEnded: 2024-04-21T00:48:42Z\nTotal Time Read: 3hrs 48mins 31secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Yellowface\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Yellowface"
   },
   {
-    "objectID": "books/book-the_seven_principles_for_making_marriage_work.html#reading-journey",
-    "href": "books/book-the_seven_principles_for_making_marriage_work.html#reading-journey",
-    "title": "The Seven Principles for Making Marriage Work",
+    "objectID": "books/book-yellowface.html#reading-journey",
+    "href": "books/book-yellowface.html#reading-journey",
+    "title": "Yellowface",
     "section": "",
-    "text": "Started: 2024-05-01T15:55:23Z\nEnded: 2024-05-02T20:55:01Z\nTotal Time Read: 3hrs 19mins 53secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Seven Principles for Making Marriage Work\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Seven Principles for Making Marriage Work"
+    "text": "Started: 2024-04-19T20:47:42Z\nEnded: 2024-04-21T00:48:42Z\nTotal Time Read: 3hrs 48mins 31secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Yellowface\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Yellowface"
   },
   {
-    "objectID": "books/book-generative_deep_learning,_2nd_ed.html",
-    "href": "books/book-generative_deep_learning,_2nd_ed.html",
-    "title": "Generative Deep Learning, 2nd Ed",
-    "section": "",
-    "text": "Started: 2023-06-23T17:09:16Z\nEnded: 2023-07-30T16:44:07Z\nTotal Time Read: 4hrs 32mins 41secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Generative Deep Learning, 2nd Ed\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Generative Deep Learning, 2nd Ed"
-  },
-  {
-    "objectID": "books/book-generative_deep_learning,_2nd_ed.html#reading-journey",
-    "href": "books/book-generative_deep_learning,_2nd_ed.html#reading-journey",
-    "title": "Generative Deep Learning, 2nd Ed",
-    "section": "",
-    "text": "Started: 2023-06-23T17:09:16Z\nEnded: 2023-07-30T16:44:07Z\nTotal Time Read: 4hrs 32mins 41secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Generative Deep Learning, 2nd Ed\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Generative Deep Learning, 2nd Ed"
-  },
-  {
-    "objectID": "books/book-mad_honey.html",
-    "href": "books/book-mad_honey.html",
-    "title": "Mad Honey",
-    "section": "",
-    "text": "Started: 2024-05-30T15:44:09Z\nEnded: 2024-05-31T18:49:02Z\nTotal Time Read: 5hrs 37mins 38secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Mad Honey\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Mad Honey"
-  },
-  {
-    "objectID": "books/book-mad_honey.html#reading-journey",
-    "href": "books/book-mad_honey.html#reading-journey",
-    "title": "Mad Honey",
-    "section": "",
-    "text": "Started: 2024-05-30T15:44:09Z\nEnded: 2024-05-31T18:49:02Z\nTotal Time Read: 5hrs 37mins 38secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Mad Honey\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Mad Honey"
-  },
-  {
-    "objectID": "books/book-practical_weak_supervision.html",
-    "href": "books/book-practical_weak_supervision.html",
-    "title": "Practical Weak Supervision",
-    "section": "",
-    "text": "Started: 2022-02-19T20:41:05Z\nEnded: 2022-02-20T17:10:57Z\nTotal Time Read: 2hrs 2mins 9secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Practical Weak Supervision\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Practical Weak Supervision"
-  },
-  {
-    "objectID": "books/book-practical_weak_supervision.html#reading-journey",
-    "href": "books/book-practical_weak_supervision.html#reading-journey",
-    "title": "Practical Weak Supervision",
-    "section": "",
-    "text": "Started: 2022-02-19T20:41:05Z\nEnded: 2022-02-20T17:10:57Z\nTotal Time Read: 2hrs 2mins 9secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Practical Weak Supervision\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Practical Weak Supervision"
-  },
-  {
-    "objectID": "books/book-data_science_at_the_command_line.html",
-    "href": "books/book-data_science_at_the_command_line.html",
-    "title": "Data Science at the Command Line",
-    "section": "",
-    "text": "Started: 2022-02-09T19:47:39Z\nEnded: 2022-02-11T16:03:12Z\nTotal Time Read: 3hrs 19mins 50secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Data Science at the Command Line\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Data Science at the Command Line"
-  },
-  {
-    "objectID": "books/book-data_science_at_the_command_line.html#reading-journey",
-    "href": "books/book-data_science_at_the_command_line.html#reading-journey",
-    "title": "Data Science at the Command Line",
-    "section": "",
-    "text": "Started: 2022-02-09T19:47:39Z\nEnded: 2022-02-11T16:03:12Z\nTotal Time Read: 3hrs 19mins 50secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Data Science at the Command Line\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Data Science at the Command Line"
-  },
-  {
-    "objectID": "books/book-docker_cookbook.html",
-    "href": "books/book-docker_cookbook.html",
-    "title": "Docker Cookbook",
-    "section": "",
-    "text": "Started: 2022-02-25T16:56:09Z\nEnded: 2022-02-28T20:48:32Z\nTotal Time Read: 3hrs 0mins 45secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Docker Cookbook\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Docker Cookbook"
-  },
-  {
-    "objectID": "books/book-docker_cookbook.html#reading-journey",
-    "href": "books/book-docker_cookbook.html#reading-journey",
-    "title": "Docker Cookbook",
-    "section": "",
-    "text": "Started: 2022-02-25T16:56:09Z\nEnded: 2022-02-28T20:48:32Z\nTotal Time Read: 3hrs 0mins 45secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Docker Cookbook\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Docker Cookbook"
-  },
-  {
-    "objectID": "books/reviews/review-animorphs_x2317–_the_underground.html",
-    "href": "books/reviews/review-animorphs_x2317–_the_underground.html",
-    "title": "Animorphs #17: The Underground",
-    "section": "",
-    "text": "Thoughts on Animorphs #17: The Underground\n\n\n\n\n\n\n\n\n\nOverview   Oh so apparently certain types of instant oatmeal are like a drug to Yerks and eventually drive them insane while a human can be in control.  \n\n\n\nYerks get magically addicted to oatmeal\nRachel shows that although she acts fearless, she’s scared inside but almost addicted to the danger of war.\nThis one makes me feel sad for Rachel and what fighting has done to her mind\n\n\n\n\n\n\n\nBluesky Comments"
-  },
-  {
-    "objectID": "books/reviews/review-animorphs_x2319–_the_departure.html",
-    "href": "books/reviews/review-animorphs_x2319–_the_departure.html",
-    "title": "Animorphs #19: The Departure",
-    "section": "",
-    "text": "Thoughts on Animorphs #19: The Departure\n\n\n\n\n\n\n\n\n\nOverview   Cassie addresses the issue with being in war when there are thinking creatures being killed in each battle  \n\n\n\nThis was beautiful considering it’s also a book for kids\nIMO knowing the ending of the series kind of makes this book a bit more special\n\n\n\n\n\n\n\nBluesky Comments"
-  },
-  {
-    "objectID": "books/reviews/review-animorphs_x2318–_the_decision.html",
-    "href": "books/reviews/review-animorphs_x2318–_the_decision.html",
-    "title": "Animorphs #18: The Decision",
-    "section": "",
-    "text": "Thoughts on Animorphs #18: The Decision\n\n\n\n\n\n\n\n\n\nOverview   Team gets transferred to Zero Space (anti-space) because ‘technology’ and able to go fight with the Andalites in an important battle.  \n\n\n\nAndalite traitors exist!\nOh so they discover there are traitors within the Andalites. Also, Ax realizes how much the humans’ world is his new home.\nThe humans are relatively chill being on their first alien planet…\n\n\n\n\n\n\n\nBluesky Comments"
-  },
-  {
-    "objectID": "books/reviews/review-animorphs_x2320–_the_discovery.html",
-    "href": "books/reviews/review-animorphs_x2320–_the_discovery.html",
+    "objectID": "books/book-animorphs_x2320–_the_discovery.html",
+    "href": "books/book-animorphs_x2320–_the_discovery.html",
     "title": "Animorphs #20: The Discovery",
     "section": "",
-    "text": "Thoughts on Animorphs #20: The Discovery\n\n\n\n\n\n\n\n\n\nOverview   So new Animorph team member? Not going to end well…  \n\n\n\n‘With great power comes great responsibility’\nDavid giving out so many red flags\n\n\n\n\n\n\n\nBluesky Comments"
+    "text": "Started: 2024-12-04T16:16:01Z\nEnded: 2024-12-04T21:00:38Z\nTotal Time Read: 0hrs 59mins 59secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #20: The Discovery\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #20: The Discovery"
   },
   {
-    "objectID": "books/reviews/review-animorphs_x2316–_the_warning.html",
-    "href": "books/reviews/review-animorphs_x2316–_the_warning.html",
+    "objectID": "books/book-animorphs_x2320–_the_discovery.html#reading-journey",
+    "href": "books/book-animorphs_x2320–_the_discovery.html#reading-journey",
+    "title": "Animorphs #20: The Discovery",
+    "section": "",
+    "text": "Started: 2024-12-04T16:16:01Z\nEnded: 2024-12-04T21:00:38Z\nTotal Time Read: 0hrs 59mins 59secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #20: The Discovery\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #20: The Discovery"
+  },
+  {
+    "objectID": "books/book-endymion.html",
+    "href": "books/book-endymion.html",
+    "title": "Endymion",
+    "section": "",
+    "text": "Started: 2024-07-17T19:47:46Z\nEnded: 2024-08-28T16:36:23Z\nTotal Time Read: 6hrs 32mins 33secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Endymion\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Endymion"
+  },
+  {
+    "objectID": "books/book-endymion.html#reading-journey",
+    "href": "books/book-endymion.html#reading-journey",
+    "title": "Endymion",
+    "section": "",
+    "text": "Started: 2024-07-17T19:47:46Z\nEnded: 2024-08-28T16:36:23Z\nTotal Time Read: 6hrs 32mins 33secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Endymion\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Endymion"
+  },
+  {
+    "objectID": "books/book-animorphs–_x2309_the_secret.html",
+    "href": "books/book-animorphs–_x2309_the_secret.html",
+    "title": "Animorphs: #09 The Secret",
+    "section": "",
+    "text": "Started: 2024-11-12T16:19:57Z\nEnded: 2024-11-12T17:43:08Z\nTotal Time Read: 0hrs 58mins 33secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs: #09 The Secret\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs: #09 The Secret"
+  },
+  {
+    "objectID": "books/book-animorphs–_x2309_the_secret.html#reading-journey",
+    "href": "books/book-animorphs–_x2309_the_secret.html#reading-journey",
+    "title": "Animorphs: #09 The Secret",
+    "section": "",
+    "text": "Started: 2024-11-12T16:19:57Z\nEnded: 2024-11-12T17:43:08Z\nTotal Time Read: 0hrs 58mins 33secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs: #09 The Secret\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs: #09 The Secret"
+  },
+  {
+    "objectID": "books/book-animorphs_x2316–_the_warning.html",
+    "href": "books/book-animorphs_x2316–_the_warning.html",
     "title": "Animorphs #16: The Warning",
     "section": "",
-    "text": "Thoughts on Animorphs #16: The Warning\n\n\n\n\n\n\n\n\n\nOverview   The team discovers a chat room talking about Yerks so they go investigate the equivalent of AOL to get the actual screen name identities.\n\n\n\n\nJake almost dies as a fly and clearly has a developed a new fear and perhaps PTSD (at least for this story).  \n\n\n\nYerks can have ‘twins’!\nClassic evil twin brother, or less evil? Not sure exactly on this one…\n\n\n\n\n\n\n\nBluesky Comments"
+    "text": "Started: 2024-11-28T21:09:09Z\nEnded: 2024-11-28T23:24:25Z\nTotal Time Read: 1hrs 5mins 24secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #16: The Warning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #16: The Warning"
+  },
+  {
+    "objectID": "books/book-animorphs_x2316–_the_warning.html#reading-journey",
+    "href": "books/book-animorphs_x2316–_the_warning.html#reading-journey",
+    "title": "Animorphs #16: The Warning",
+    "section": "",
+    "text": "Started: 2024-11-28T21:09:09Z\nEnded: 2024-11-28T23:24:25Z\nTotal Time Read: 1hrs 5mins 24secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #16: The Warning\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #16: The Warning"
+  },
+  {
+    "objectID": "books/book-gpt-3.html",
+    "href": "books/book-gpt-3.html",
+    "title": "GPT-3",
+    "section": "",
+    "text": "Started: 2022-12-13T21:18:42Z\nEnded: 2022-12-19T22:24:27Z\nTotal Time Read: 1hrs 47mins 12secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"GPT-3\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for GPT-3"
+  },
+  {
+    "objectID": "books/book-gpt-3.html#reading-journey",
+    "href": "books/book-gpt-3.html#reading-journey",
+    "title": "GPT-3",
+    "section": "",
+    "text": "Started: 2022-12-13T21:18:42Z\nEnded: 2022-12-19T22:24:27Z\nTotal Time Read: 1hrs 47mins 12secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"GPT-3\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for GPT-3"
+  },
+  {
+    "objectID": "books/book-an_immense_world.html",
+    "href": "books/book-an_immense_world.html",
+    "title": "An Immense World",
+    "section": "",
+    "text": "Started: 2024-08-30T05:49:25Z\nEnded: 2024-09-19T20:48:56Z\nTotal Time Read: 5hrs 33mins 4secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"An Immense World\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for An Immense World"
+  },
+  {
+    "objectID": "books/book-an_immense_world.html#reading-journey",
+    "href": "books/book-an_immense_world.html#reading-journey",
+    "title": "An Immense World",
+    "section": "",
+    "text": "Started: 2024-08-30T05:49:25Z\nEnded: 2024-09-19T20:48:56Z\nTotal Time Read: 5hrs 33mins 4secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"An Immense World\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for An Immense World"
+  },
+  {
+    "objectID": "books/reviews/review-animorphs–_x2309_the_secret.html",
+    "href": "books/reviews/review-animorphs–_x2309_the_secret.html",
+    "title": "Animorphs: #09 The Secret",
+    "section": "",
+    "text": "Thoughts on Animorphs: #09 The Secret\n\n\n\n\n\n\n\n\n\nOverview   Cassie narrates the story.  \n\n\n\nSkunks are cute\nBut skunks also have no fear\n\n\n\n\n\n\n\nBluesky Comments"
+  },
+  {
+    "objectID": "books/reviews/review-the_rise_of_endymion.html",
+    "href": "books/reviews/review-the_rise_of_endymion.html",
+    "title": "The Rise of Endymion",
+    "section": "",
+    "text": "Thoughts on The Rise of Endymion\n\n\n\n\n\n\n\n\n\nOverview   The final book from the Hyperion Cantos.  \n\n\n\nNot bad but I’m happy for it to be dones\nIs it bad when you see the final end coming from 300 pages away?\n\n\n\n\n\n\n\nBluesky Comments"
+  },
+  {
+    "objectID": "books/reviews/review-lurking.html",
+    "href": "books/reviews/review-lurking.html",
+    "title": "Lurking: How a Person Became a User",
+    "section": "",
+    "text": "Thoughts on Lurking: How a Person Became a User\n\n\n\n\n\n\n\n\n\nOverview   Goes through the history from BBS to more modern social media platforms. Really about human interaction & relatationships, even if done digitally.   Buy at Bookshop (non-affiliate link / affiliate link)"
+  },
+  {
+    "objectID": "books/reviews/review-animorphs_x2313–_the_change.html",
+    "href": "books/reviews/review-animorphs_x2313–_the_change.html",
+    "title": "Animorphs #13: The Change",
+    "section": "",
+    "text": "Thoughts on Animorphs #13: The Change\n\n\n\n\n\n\n\n\n\nOverview   Tobias narrates and gets back their morphing power… kinda  \n\n\n\nWar changes a person\nThe Ellimist is a tricky little fella\n\n\n\n\n\n\n\nBluesky Comments"
+  },
+  {
+    "objectID": "books/reviews/review-animorphs_x2322–_the_solution.html",
+    "href": "books/reviews/review-animorphs_x2322–_the_solution.html",
+    "title": "Animorphs #22: The Solution",
+    "section": "",
+    "text": "Thoughts on Animorphs #22: The Solution\n\n\n\n\n\n\n\n\n\nOverview   The conclusion of dealing with their mistake making another Animorph member.  \n\n\n\nDamn\nThis book narrated by Rachel feels like to me a turning point in the series.\nThe plots have teetered right at the edge of going full into how dark this all is. It’s always been young teenagers (middle school?) having to do impossible things and impossible decisions.\nBut over the past couple books, especially this one I think really drives that they’re not ‘kids’ any more and are never going back to a ‘normal’ life.\nRachel clearly sees that she has a ferocity that works well for ‘war’ but is definitely bothered by it. We see that Jake knows that he has to use his friends/team strategically. Even gentle Cassie is the one who designs the plot to trick the traitor in being forever a rodent.\nThe end shows it’s not a ‘victory’ but something that was necessary and never want to think about. But even at the end, it’s chilling to see they’re reminded it’s just not done and their traitor David will still be forever alone as a rat on a small island.\nI wonder if this is a point where the series shifts\n\n\n\n\n\n\n\nBluesky Comments"
   },
   {
     "objectID": "books/reviews/review-animorphs_x2314–_the_unknown.html",
