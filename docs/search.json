@@ -2651,5 +2651,26 @@
     "title": "The Creative Act: A Way of Being",
     "section": "",
     "text": "Started: 2023-09-28T03:38:30Z\nEnded: 2023-09-28T05:06:30Z\nTotal Time Read: 1hrs 28mins 0secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Creative Act: A Way of Being\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Creative Act: A Way of Being"
+  },
+  {
+    "objectID": "books/reviews/review-animorphs_x2323–_the_pretender.html",
+    "href": "books/reviews/review-animorphs_x2323–_the_pretender.html",
+    "title": "Animorphs #23: The Pretender",
+    "section": "",
+    "text": "Thoughts on Animorphs #23: The Pretender\n\n\n\n\n\n\n\n\n\nOverview   Tobias learns that his father is Elfganor and correctly reasons that it was some Ellimist wackiness.  \n\n\n\nTobias never gets the home he really needs\nI love that Tobias has this internal struggle of being a human and a hawk. But I also love that at the end of the book, he leans into both. Especially with him taking care of the small bunnies– his makeshift family since he doesn’t have one.\nHim turning into a human to cry breaks my heart\n\n\n\n\n\n\n\nBluesky Comments"
+  },
+  {
+    "objectID": "books/book-animorphs_x2323–_the_pretender.html",
+    "href": "books/book-animorphs_x2323–_the_pretender.html",
+    "title": "Animorphs #23: The Pretender",
+    "section": "",
+    "text": "Started: 2024-12-08T22:29:34Z\nEnded: 2024-12-08T23:44:06Z\nTotal Time Read: 1hrs 14mins 32secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #23: The Pretender\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #23: The Pretender"
+  },
+  {
+    "objectID": "books/book-animorphs_x2323–_the_pretender.html#reading-journey",
+    "href": "books/book-animorphs_x2323–_the_pretender.html#reading-journey",
+    "title": "Animorphs #23: The Pretender",
+    "section": "",
+    "text": "Started: 2024-12-08T22:29:34Z\nEnded: 2024-12-08T23:44:06Z\nTotal Time Read: 1hrs 14mins 32secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #23: The Pretender\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #23: The Pretender"
   }
 ]
