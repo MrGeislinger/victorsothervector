@@ -2735,5 +2735,26 @@
     "title": "The Creative Act: A Way of Being",
     "section": "",
     "text": "Started: 2023-09-28T03:38:30Z\nEnded: 2023-09-28T05:06:30Z\nTotal Time Read: 1hrs 28mins 0secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Creative Act: A Way of Being\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Creative Act: A Way of Being"
+  },
+  {
+    "objectID": "books/reviews/review-animorphs_x2327–_the_exposed.html",
+    "href": "books/reviews/review-animorphs_x2327–_the_exposed.html",
+    "title": "Animorphs #27: The Exposed",
+    "section": "",
+    "text": "Thoughts on Animorphs #27: The Exposed\n\n\n\n\n\n\n\n\n\nOverview   The Chee androids malfunction and apparently it’s in part from Crayak trying to cause issues. So the team has to dive dee (as giant squids) into the ocean to get to the Permalite (Chee creators) ship.  \n\n\n\nRachel continues to be Rachel but touches more about relationship with Tobias\nThis personally felt less interesting since I think there wasn’t as much character development from beginning to end. Rachel is clearly addicted to the ‘fight’ and has feelings for Tobias even if he’s ‘stuck’ as a hawk.\nBut not a bad story. Gave a little more world-building especially hearing how the Permalite’s ship and design is really super trusting. (They are essentially dogs after all so it fits.)\nThese ghost writers might end up focusing more on world development over character development\n\n\n\n\n\n\n\nBluesky Comments"
+  },
+  {
+    "objectID": "books/book-animorphs_x2327–_the_exposed.html",
+    "href": "books/book-animorphs_x2327–_the_exposed.html",
+    "title": "Animorphs #27: The Exposed",
+    "section": "",
+    "text": "Started: 2024-12-14T20:38:18Z\nEnded: 2024-12-14T21:58:55Z\nTotal Time Read: 1hrs 3mins 59secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #27: The Exposed\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #27: The Exposed"
+  },
+  {
+    "objectID": "books/book-animorphs_x2327–_the_exposed.html#reading-journey",
+    "href": "books/book-animorphs_x2327–_the_exposed.html#reading-journey",
+    "title": "Animorphs #27: The Exposed",
+    "section": "",
+    "text": "Started: 2024-12-14T20:38:18Z\nEnded: 2024-12-14T21:58:55Z\nTotal Time Read: 1hrs 3mins 59secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #27: The Exposed\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #27: The Exposed"
   }
 ]
