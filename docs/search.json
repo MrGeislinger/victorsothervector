@@ -2784,5 +2784,47 @@
     "title": "The Creative Act: A Way of Being",
     "section": "",
     "text": "Started: 2023-09-28T03:38:30Z\nEnded: 2023-09-28T05:06:30Z\nTotal Time Read: 1hrs 28mins 0secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Creative Act: A Way of Being\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Creative Act: A Way of Being"
+  },
+  {
+    "objectID": "books/reviews/review-nexus–_a_brief_history_of_information_networks_from_the_stone_age_to_ai.html",
+    "href": "books/reviews/review-nexus–_a_brief_history_of_information_networks_from_the_stone_age_to_ai.html",
+    "title": "Nexus: A Brief History of Information Networks from the Stone Age to AI",
+    "section": "",
+    "text": "Thoughts on Nexus: A Brief History of Information Networks from the Stone Age to AI\n\n\n\n\n\n\n\n\n\nOverview  \n\n\n\n\n \n\n\n\nBLANK\nBLANK\n\n\n\n\n\n\n\nBluesky Comments"
+  },
+  {
+    "objectID": "books/book-animorphs_x2328.5–_alternamorphs_x231_-_the_first_journey.html",
+    "href": "books/book-animorphs_x2328.5–_alternamorphs_x231_-_the_first_journey.html",
+    "title": "Animorphs #28.5: Alternamorphs #1 - The First Journey",
+    "section": "",
+    "text": "Started: 2024-12-23T16:42:59Z\nEnded: 2024-12-23T17:21:43Z\nTotal Time Read: 0hrs 38mins 44secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #28.5: Alternamorphs #1 - The First Journey\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #28.5: Alternamorphs #1 - The First Journey"
+  },
+  {
+    "objectID": "books/book-animorphs_x2328.5–_alternamorphs_x231_-_the_first_journey.html#reading-journey",
+    "href": "books/book-animorphs_x2328.5–_alternamorphs_x231_-_the_first_journey.html#reading-journey",
+    "title": "Animorphs #28.5: Alternamorphs #1 - The First Journey",
+    "section": "",
+    "text": "Started: 2024-12-23T16:42:59Z\nEnded: 2024-12-23T17:21:43Z\nTotal Time Read: 0hrs 38mins 44secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #28.5: Alternamorphs #1 - The First Journey\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #28.5: Alternamorphs #1 - The First Journey"
+  },
+  {
+    "objectID": "books/book-nexus–_a_brief_history_of_information_networks_from_the_stone_age_to_ai.html",
+    "href": "books/book-nexus–_a_brief_history_of_information_networks_from_the_stone_age_to_ai.html",
+    "title": "Nexus: A Brief History of Information Networks from the Stone Age to AI",
+    "section": "",
+    "text": "Started: 2024-12-21T12:17:41Z\nEnded: 2024-12-23T16:08:21Z\nTotal Time Read: 5hrs 9mins 4secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Nexus: A Brief History of Information Networks from the Stone Age to AI\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Nexus: A Brief History of Information Networks from the Stone Age to AI"
+  },
+  {
+    "objectID": "books/book-nexus–_a_brief_history_of_information_networks_from_the_stone_age_to_ai.html#reading-journey",
+    "href": "books/book-nexus–_a_brief_history_of_information_networks_from_the_stone_age_to_ai.html#reading-journey",
+    "title": "Nexus: A Brief History of Information Networks from the Stone Age to AI",
+    "section": "",
+    "text": "Started: 2024-12-21T12:17:41Z\nEnded: 2024-12-23T16:08:21Z\nTotal Time Read: 5hrs 9mins 4secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Nexus: A Brief History of Information Networks from the Stone Age to AI\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Nexus: A Brief History of Information Networks from the Stone Age to AI"
+  },
+  {
+    "objectID": "books/reviews/review-animorphs_x2328.5–_alternamorphs_x231_-_the_first_journey.html",
+    "href": "books/reviews/review-animorphs_x2328.5–_alternamorphs_x231_-_the_first_journey.html",
+    "title": "Animorphs #28.5: Alternamorphs #1 - The First Journey",
+    "section": "",
+    "text": "Thoughts on Animorphs #28.5: Alternamorphs #1 - The First Journey\n\n\n\n\n\n\n\n\n\nOverview  \n\n\n\n\n \n\n\n\nBLANK\nBLANK\n\n\n\n\n\n\n\nBluesky Comments"
   }
 ]
