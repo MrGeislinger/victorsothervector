@@ -99,18 +99,23 @@ def get_year_data(data, year=2024):
     ]
 
     # Add in 'dummy' weeks to fill up the gap
-    df_temp = pd.DataFrame(columns=['weekday', 'week', 'activity'])
-    df_temp.week = np.arange(0,52)
-    df_orig = pd.DataFrame(columns=df_temp.columns)
+    # Create a date range for the entire year
+    date_range = pd.date_range(start=f'{year}-01-01', end=f'{year}-12-31')
+    # Create a DataFrame with all dates, weeks, and weekdays (0 activity)
+    df_full = pd.DataFrame({'date': date_range})
+    df_full['week'] = df_full['date'].dt.isocalendar().week -1 #isocalendar is more accurate
+    df_full['weekday'] = df_full['date'].dt.weekday
+
+    df_orig = pd.DataFrame(columns=['weekday', 'week', 'activity'])
     # Offset by one for display (starts at zero)
     df_orig['week'] = df_yr.start.dt.strftime('%W').astype(int) - 1
     # Monday is the first day of the week now (starts at zero)
     df_orig['weekday'] = (df_yr.start.dt.strftime('%w').astype(int) - 1) % 7
     df_orig['activity'] = df_yr.duration_frac
     df_new = pd.concat([
-        df_temp, 
+        df_full, 
         df_orig,
-    ])
+    ]).fillna(0)
 
     # Reshape the data and plot it
     df_pivot = df_new.pivot_table(
