@@ -1,0 +1,48 @@
+---
+title: "*Animorphs #28.5: Alternamorphs #1 - The First Journey*"
+book:
+  title: "*Animorphs #28.5: Alternamorphs #1 - The First Journey*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=dGJHDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+A choose your own adventure where you're the other missing Animorph!
+Does [Book #1](https://www.victorsothervector.com/books/book-animorphs%E2%80%93_x2301_the_invasion.html) & [Book #11](https://www.victorsothervector.com/books/book-animorphs_x2311%E2%80%93_the_forgotten.html)
+<br/>
+<br/>
+
+
+:::
+
+
+***Kind of feels like another exploration of the failed Animorph David***
+
+Even if you go through all the options, this is till a good 10%+ shorter than
+the rest of the books. You can feel it go by real quick and honestly the first
+book that I felt was really not worth reading.
+
+But I absolutely remember reading this as a kid! Definitely having to choose
+which animal has made a lasting memory for me. ♥️
+
+**Man choosing at random means you're likely going to die as an Animorph**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3ldzepnb6gw22 >}}
+
+
+:::
+---

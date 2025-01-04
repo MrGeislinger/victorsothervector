@@ -1,0 +1,41 @@
+---
+title: "*Animorphs: #02 The Visitor*"
+book:
+  title: "Animorphs: #02 The Visitor"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=ErC6YoT6Y1gC&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The wildly popular books by K.A. Applegate are back! The Animorphs return in this update of the classic series. Rachel is still reeling from the news that the Earth is secretly under attack by parasitic aliens known as the Yeerks. And that she and her friends -- five kids who stumbled onto a downed spacecraft and were given the power to morph into any animal they touch -- are the planet's only defense. But Rachel has always been a daredevil. When it's suggested that they infiltrate the home of their assistant principal, who also happens to be a human host of the Yeerks, she volunteers. But what she finds inside may be more than even she can handle.
+<br/>
+<br/>
+
+
+:::
+
+
+***READING***
+
+READING
+
+**READING**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lajzumuue22c >}}
+
+
+:::

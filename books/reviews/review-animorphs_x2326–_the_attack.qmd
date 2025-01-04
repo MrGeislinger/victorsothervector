@@ -1,0 +1,57 @@
+---
+title: "*Animorphs #26: The Attack*"
+book:
+  title: "*Animorphs #26: The Attack*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=c2YwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The team learns more about the Ellimist and their enemy Crayak while being
+whisked away to an alien world of diverged species of Yerk that they're trying
+to save from extinction by Crayak.
+
+(Yeah, like for real.)
+<br/>
+<br/>
+
+
+:::
+
+
+***The Ellimist strikes again***
+
+The enemy Howler that has been designed to kill and destroy all other species
+are actually just 'kids' where they're having 'fun' without realizing what
+they're doing is wrong. I feel like it has a good parallel with thinking the
+enemy as 'pure evil' when it's much more a matter of perspective.
+
+
+I love that even after everything done and they 'won', Jake still has issues
+thinking about the Howler he had to kill.
+
+Also, Ax having to deal with running away from a battle really shaking him up
+that he wasn't being a 'brave warrior' is a nice touch.
+
+**Nothing is as simple as it seems**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3ldcdsl5s662n >}}
+
+
+:::
+---

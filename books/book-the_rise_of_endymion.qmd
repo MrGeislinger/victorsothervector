@@ -1,0 +1,43 @@
+---
+title: "*The Rise of Endymion*"
+book:
+  title: "The Rise of Endymion"
+  title_simplified: "the_rise_of_endymion"
+reading:
+  start: 2024-11-25T14:50:59Z
+  end: 2024-12-02T20:58:00Z
+  duration_total_seconds: 25875
+  duration_hrs: 7
+  duration_mins: 11
+  duration_secs: 15
+  has_review: True
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for The Rise of Endymion"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """The Rise of Endymion"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```
+
+{{< include reviews/review-the_rise_of_endymion.qmd >}}

@@ -1,0 +1,43 @@
+---
+title: "*Animorphs: #05 The Predator*"
+book:
+  title: "Animorphs: #05 The Predator"
+  title_simplified: "animorphs–_x2305_the_predator"
+reading:
+  start: 2024-11-09T10:10:18Z
+  end: 2024-11-09T11:07:36Z
+  duration_total_seconds: 3438
+  duration_hrs: 0
+  duration_mins: 57
+  duration_secs: 18
+  has_review: True
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Animorphs: #05 The Predator"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Animorphs: #05 The Predator"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```
+
+{{< include reviews/review-animorphs–_x2305_the_predator.qmd >}}

@@ -1,0 +1,41 @@
+---
+title: "*Animorphs #54: The Beginning*"
+book:
+  title: "Animorphs #54: The Beginning"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=qCWGDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+No one ever thought it would come to this. Jake, Rachel, Tobias, Cassie, Marco, and Ax know that even if they could have warned people in the beginning, no one would have believed their story. A story about an invasion of parasitic aliens. So for all this time, Jake and the other Animorphs have secretly fought a desperate battle. Secretly held the Yeerks at bay.But those days are over.It's come down to the final battle between the Yeerks and Animorphs. And no one knows who will win, lose, or live...
+<br/>
+<br/>
+
+
+:::
+
+
+***READING***
+
+READING
+
+**READING**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lex4kbzrs32a >}}
+
+
+:::

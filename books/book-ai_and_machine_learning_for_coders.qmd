@@ -1,0 +1,41 @@
+---
+title: "*AI and Machine Learning for Coders*"
+book:
+  title: "AI and Machine Learning for Coders"
+  title_simplified: "ai_and_machine_learning_for_coders"
+reading:
+  start: 2022-09-05T13:33:00Z
+  end: 2022-09-25T17:29:42Z
+  duration_total_seconds: 12910
+  duration_hrs: 3
+  duration_mins: 35
+  duration_secs: 10
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for AI and Machine Learning for Coders"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """AI and Machine Learning for Coders"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

@@ -1,0 +1,34 @@
+---
+title: "*Animorphs: Megamorphs #01 The Andalite's Gift*"
+book:
+  title: "Animorphs: Megamorphs #01 The Andalite's Gift"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=sCWGDwAAQBAJ&printsec=frontcover&img=1)
+
+**Overview** <br/>
+<br/>
+This comes before the 8th book and has all the Animorphs narrate a different
+chapter. The stakes seem a bit higher in this plot.
+<br/>
+<br/>
+
+
+::: 
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lasfqk4lzs24 >}}
+
+:::

@@ -1,0 +1,41 @@
+---
+title: "*Things to Make and Do in the Fourth Dimension*"
+book:
+  title: "Things to Make and Do in the Fourth Dimension"
+  title_simplified: "things_to_make_and_do_in_the_fourth_dimension"
+reading:
+  start: 2024-03-16T14:10:15Z
+  end: 2024-03-18T20:53:32Z
+  duration_total_seconds: 17086
+  duration_hrs: 4
+  duration_mins: 44
+  duration_secs: 46
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Things to Make and Do in the Fourth Dimension"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Things to Make and Do in the Fourth Dimension"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

@@ -1,0 +1,48 @@
+---
+title: "*Animorphs #24: The Suspicion*"
+book:
+  title: "*Animorphs #24: The Suspicion*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=a2YwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+This was a little wacky even for the Animorphs with shrinking and a new alien
+species.
+Definitely one of those that seems like it could be skipped.
+(But maybe it becomes relevant later?)
+<br/>
+<br/>
+
+
+:::
+
+
+***Honey I Shrunk the Animorphs***
+
+Feels like a weaker one of the books probably because it's a little sci-fi
+shrinking and stuff but no deeper themes. Still, not a bad one.
+
+
+**Little details about shrinking and Helmacrons but nothing that seems important to remember**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3ld7c2yqton2b >}}
+
+
+:::
+---

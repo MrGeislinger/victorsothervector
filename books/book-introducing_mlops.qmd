@@ -1,0 +1,41 @@
+---
+title: "*Introducing MLOps*"
+book:
+  title: "Introducing MLOps"
+  title_simplified: "introducing_mlops"
+reading:
+  start: 2022-01-10T20:18:21Z
+  end: 2022-01-10T20:57:51Z
+  duration_total_seconds: 2370
+  duration_hrs: 0
+  duration_mins: 39
+  duration_secs: 30
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Introducing MLOps"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Introducing MLOps"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

@@ -1,0 +1,46 @@
+---
+title: "*Animorphs #13.5: The Andalite Chronicles*"
+book:
+  title: "*Animorphs #13.5: The Andalite Chronicles*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=1mFHDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The 8th book in the Animorphs series narrated by Ax (the only Andalite of the
+Animorphs)
+<br/>
+<br/>
+
+
+::: 
+
+***First Prequel for the Animorphs Series***
+
+You get to learn about Elfganor, the Andalite alien who gave the Animorphs their
+morphing power.
+
+You learn their story is a little more determined and special than you first
+realized.
+
+
+**Lot's of nostalgia for me.**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lbqjvdsbw22e >}}
+
+:::

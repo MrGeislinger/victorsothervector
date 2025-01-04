@@ -1,0 +1,24 @@
+---
+title: "*Dopamine Nation: Finding Balance in the Age of Indulgence*"
+book:
+  title: "Dopamine Nation: Finding Balance in the Age of Indulgence"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=y5GKEAAAQBAJ&printsec=frontcover&img=1&zoom=10&edge=curl&source=gbs_api)
+
+**Overview** <br/>
+<br/>
+This was one of the two books I heard mentioned from a child psychologist being that one was 'good' and the other was less helpful. I don't think this is the 'good' book. It was fine but kept feeling this was more about shocking stories. I didn't get as much out of it as maybe someone who hasn't really considered how addictions & neurotransmitters affect the brain.
+<br/>
+<br/>
+**Buy at Bookshop** ([non-affiliate link](https://bookshop.org/p/books/dopamine-nation-finding-balance-in-the-age-of-indulgence-anna-lembke/15434110) / [affiliate link](https://bookshop.org/a/93954/9781524746742))
+
+
+::: 

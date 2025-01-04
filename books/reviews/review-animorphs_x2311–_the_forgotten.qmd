@@ -1,0 +1,33 @@
+---
+title: "*Animorphs #11: The Forgotten*"
+book:
+  title: "*Animorphs #11: The Forgotten*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=Kvi-DgAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+Probably wildest plot yet between 'alternative timeline' & 'it was all a dream'.
+<br/>
+<br/>
+
+
+::: 
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lb6z5ijxak2y >}}
+
+:::

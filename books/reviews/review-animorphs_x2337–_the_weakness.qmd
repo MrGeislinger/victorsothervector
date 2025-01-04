@@ -1,0 +1,42 @@
+---
+title: "*Animorphs #37: The Weakness*"
+book:
+  title: "*Animorphs #37: The Weakness*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=mWYwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+Jake's away so Rachel takes over as temporary leader but is so focused on fighting that she makes irresponsible decisions.
+<br/>
+<br/>
+
+
+:::
+
+
+***It ain't easy being in charge***
+
+The end when Jake is back got me– it acknowledges that even Jake's just a kid putting on a mask of being a leader
+
+**Comes back to say, hey they're all just kids doing their best in an impossible situation**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lehxjhdm2t22 >}}
+
+
+:::
+---

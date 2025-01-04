@@ -1,0 +1,41 @@
+---
+title: "*Remarkably Bright Creatures: A Novel*"
+book:
+  title: "Remarkably Bright Creatures: A Novel"
+  title_simplified: "remarkably_bright_creatures–_a_novel"
+reading:
+  start: 2023-10-07T19:42:15Z
+  end: 2023-12-31T21:06:20Z
+  duration_total_seconds: 15540
+  duration_hrs: 4
+  duration_mins: 19
+  duration_secs: 0
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Remarkably Bright Creatures: A Novel"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Remarkably Bright Creatures: A Novel"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

@@ -1,0 +1,43 @@
+---
+title: "*Outlive: The Science and Art of Longevity*"
+book:
+  title: "Outlive: The Science and Art of Longevity"
+  title_simplified: "outlive–_the_science_and_art_of_longevity"
+reading:
+  start: 2024-11-09T19:50:51Z
+  end: 2024-12-19T21:48:12Z
+  duration_total_seconds: 22820
+  duration_hrs: 6
+  duration_mins: 20
+  duration_secs: 20
+  has_review: True
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Outlive: The Science and Art of Longevity"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Outlive: The Science and Art of Longevity"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```
+
+{{< include reviews/review-outlive–_the_science_and_art_of_longevity.qmd >}}

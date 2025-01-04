@@ -1,0 +1,41 @@
+---
+title: "*How Google Works*"
+book:
+  title: "How Google Works"
+  title_simplified: "how_google_works"
+reading:
+  start: 2024-01-01T20:07:36Z
+  end: 2024-01-07T21:04:58Z
+  duration_total_seconds: 19749
+  duration_hrs: 5
+  duration_mins: 29
+  duration_secs: 9
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for How Google Works"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """How Google Works"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

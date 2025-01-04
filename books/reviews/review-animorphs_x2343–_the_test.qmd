@@ -1,0 +1,41 @@
+---
+title: "*Animorphs #43: The Test*"
+book:
+  title: "Animorphs #43: The Test"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=k2YwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+Tobias and the other Animorphs have seen things so bizarre that no sane person would believe their story. No one would believe that aliens have taken over the Earth, and are in the process of infesting as many humans as possible. No one could believe the battles and missions and losses these six kids have had to deal with. And it's not over yet.Tobias has been captured by the same human-Controller that nearly tortured him to death once before. She claims that now she's a part of the Yeerk peace movement. That she just needs a favor. Tobias isn't sure what to believe, but he knows that if the Animorphs don't find him soon, what he believes won't matter anymore...
+<br/>
+<br/>
+
+
+:::
+
+
+***READING***
+
+READING
+
+**READING**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lenaotb43m2b >}}
+
+
+:::

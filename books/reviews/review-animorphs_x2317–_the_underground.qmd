@@ -1,0 +1,44 @@
+---
+title: "*Animorphs #17: The Underground*"
+book:
+  title: "*Animorphs #17: The Underground*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=vvi-DgAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+Oh so apparently certain types of instant oatmeal are like a drug to Yerks and
+eventually drive them insane while a human can be in control.
+<br/>
+<br/>
+
+
+:::
+
+
+***Yerks get magically addicted to oatmeal***
+
+Rachel shows that although she acts fearless, she's scared inside but almost
+addicted to the danger of war.
+
+**This one makes me feel sad for Rachel and what fighting has done to her mind**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lc6nv6cao22z >}}
+
+:::

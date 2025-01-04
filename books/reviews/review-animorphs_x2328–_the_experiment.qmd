@@ -1,0 +1,67 @@
+---
+title: "*Animorphs #28: The Experiment*"
+book:
+  title: "*Animorphs #28: The Experiment*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=d2YwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The Animorphs look into the Yerks taking over some animal testing lab and a
+meat packing site. Turns out the Yerks have been trying to remove 'free will'
+from humans by first testing on animals.
+<br/>
+<br/>
+
+
+:::
+
+
+***Basic exploring about treatment of non-human animals that a young teen might be able to recognize***
+
+Definitely very blunt about real-life treatment of non-human animals. Especially
+since it's narrated by the only alien in the group who can technically be
+impartial to common practices done on Earth.
+
+As you might expect, Cassie and Marco are on the opposite ends of the spectrum.
+The book clearly leans towards Cassie's view that animals deserve our respect
+even if they aren't fully sentient, but especially so. Marco has a much more
+direct "but they're animals" attitude and is more than willing to accept animal
+harm if it's especially inconvenient to their goals to prevent it. Ax, the
+narrator, represent the neutral voice and debate that we as human society has
+on where we draw lines.
+
+Interesting to see the book go from debating about whether they should save
+the chimpanzees in the lab to where the team is in a situation of deciding to
+free some humans in cages. Definitely tries to draw parallels in a relatively
+straight-forward fashion that a young teen might connect the dots.
+
+This book overall doesn't really progress the story (or at least I don't see how
+it will). This being another ghost writer story, I'm seeing that these tend to
+be relatively self-contained. And I don't know if it's because we're about 30
+books into the series or because this was a ghost writer, but the beginning
+feels particularly rushed in explaining the Animorphs (as they do every book).
+
+
+**I'll probably not try and look at which are by ghost writters since I catch myself thinking about that more**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3ldtag337mb2w >}}
+
+
+:::
+---

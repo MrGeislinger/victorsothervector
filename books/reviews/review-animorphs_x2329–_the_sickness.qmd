@@ -1,0 +1,60 @@
+---
+title: "*Animorphs #29: The Sickness*"
+book:
+  title: "*Animorphs #29: The Sickness*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=f2YwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The Yerk Aftran that Cassie encounters and spares in 
+*[Animorpsh #19: The Departure](https://www.victorsothervector.com/books/book-animorphs_x2319%E2%80%93_the_departure.html)*
+has helped build a Yerk peace resistance but has been captured. The team has to
+save them before Visser Three discovers the true secrets of the Animorphs. But
+the team also is suffering a bad alien flu leaving just Cassie to do it all.
+<br/>
+<br/>
+
+
+:::
+
+
+***You can really feel the direness and loneliness Cassie has to do in literally trying to save everyone***
+
+As you can tell from the book cover, Cassie actually morphs into a Yerk to save
+Aftran. You learn that at least one human has befriended their Yerk parasite to
+resist against the Yerk attempt at domination. It's actually kind of sweet I
+think.
+
+At the same time, you feel the desperation of Cassie as she tries to plan a rescue
+and battle plan while also trying to save Ax's life by performing brain surgery.
+Cassie's narration seems to focus on empathy and this one feels like she really
+has it rough. You can see the struggle Cassie has to do in being in 'soldier 
+mode'.
+
+I love the resolution that they have for freeing Aftran which was to have them
+morph into a dolphin forever. It feels right considering that the non-violent
+solution is what happens. It really feels like a real Cassie story.
+
+
+**Love that the Aftran gets morphing powers even if it means staying as a dolphin. Foreshadowing...**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3le3o4lritu2a >}}
+
+
+:::
+---

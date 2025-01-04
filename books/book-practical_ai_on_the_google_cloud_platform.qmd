@@ -1,0 +1,41 @@
+---
+title: "*Practical AI on the Google Cloud Platform*"
+book:
+  title: "Practical AI on the Google Cloud Platform"
+  title_simplified: "practical_ai_on_the_google_cloud_platform"
+reading:
+  start: 2022-02-16T19:22:04Z
+  end: 2022-02-19T17:23:08Z
+  duration_total_seconds: 15815
+  duration_hrs: 4
+  duration_mins: 23
+  duration_secs: 35
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Practical AI on the Google Cloud Platform"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Practical AI on the Google Cloud Platform"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

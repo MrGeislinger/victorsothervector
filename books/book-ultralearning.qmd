@@ -1,0 +1,41 @@
+---
+title: "*Ultralearning*"
+book:
+  title: "Ultralearning"
+  title_simplified: "ultralearning"
+reading:
+  start: 2022-10-02T19:13:00Z
+  end: 2022-10-26T20:13:08Z
+  duration_total_seconds: 14763
+  duration_hrs: 4
+  duration_mins: 6
+  duration_secs: 3
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Ultralearning"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Ultralearning"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

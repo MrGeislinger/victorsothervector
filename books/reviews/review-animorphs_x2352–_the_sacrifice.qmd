@@ -1,0 +1,41 @@
+---
+title: "*Animorphs #52: The Sacrifice*"
+book:
+  title: "Animorphs #52: The Sacrifice"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=pCWGDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The war between the Yeerks and the Animorphs is still raging. There are no more secrets -- but there are plenty of lies. The kids are fighting harder than they ever thought they could. And they're about to make the biggest decision they've ever had to face. A decision that may eventually break them all.Ax and the Animorphs know that destroying the Yeerk pool would give them a huge chance to take back Earth. And they've figured out a way to do it. But there's no way to destroy the pool without also destroying the innocent humans caught by the Yeerks. But there's no more time to think about it. There's only yes or no...
+<br/>
+<br/>
+
+
+:::
+
+
+***READING***
+
+READING
+
+**READING**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lewvfxnpjs2c >}}
+
+
+:::

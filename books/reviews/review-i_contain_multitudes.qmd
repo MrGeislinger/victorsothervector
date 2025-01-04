@@ -1,0 +1,44 @@
+---
+title: "*I Contain Multitudes*"
+book:
+  title: "*I Contain Multitudes*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=4qzrCgAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+
+<br/>
+<br/>
+
+
+:::
+
+
+***Reading...***
+
+
+
+**Reading...**
+
+--- 
+
+<!-- 
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3ledeee7pvk26 >}}
+
+
+:::
+--- 
+-->

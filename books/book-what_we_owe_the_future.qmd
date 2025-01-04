@@ -1,0 +1,41 @@
+---
+title: "*What We Owe the Future*"
+book:
+  title: "What We Owe the Future"
+  title_simplified: "what_we_owe_the_future"
+reading:
+  start: 2022-08-27T20:16:51Z
+  end: 2022-09-18T17:09:10Z
+  duration_total_seconds: 26614
+  duration_hrs: 7
+  duration_mins: 23
+  duration_secs: 34
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for What We Owe the Future"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """What We Owe the Future"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

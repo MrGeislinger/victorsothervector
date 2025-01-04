@@ -1,0 +1,41 @@
+---
+title: "*Animorphs #12: The Reaction*"
+book:
+  title: "*Animorphs #12: The Reaction*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=T_i-DgAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+Rachel narrates and discovers she's allergic to crocodiles. Also the equivalent
+to mid-90s Justin Bieber almost sells out to the Yerks
+<br/>
+<br/>
+
+
+:::
+
+
+***More alien technology quirks***
+
+
+**Allergic reaction leads to a morphing burp**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lbnrsq6kfc23 >}}
+
+:::

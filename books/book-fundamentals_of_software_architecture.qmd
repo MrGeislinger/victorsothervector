@@ -1,0 +1,41 @@
+---
+title: "*Fundamentals of Software Architecture*"
+book:
+  title: "Fundamentals of Software Architecture"
+  title_simplified: "fundamentals_of_software_architecture"
+reading:
+  start: 2024-08-28T16:43:37Z
+  end: 2024-09-20T16:20:34Z
+  duration_total_seconds: 13704
+  duration_hrs: 3
+  duration_mins: 48
+  duration_secs: 24
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Fundamentals of Software Architecture"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Fundamentals of Software Architecture"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

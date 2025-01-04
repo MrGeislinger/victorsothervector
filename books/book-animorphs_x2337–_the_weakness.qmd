@@ -1,0 +1,43 @@
+---
+title: "*Animorphs #37: The Weakness*"
+book:
+  title: "Animorphs #37: The Weakness"
+  title_simplified: "animorphs_x2337–_the_weakness"
+reading:
+  start: 2024-12-29T12:04:22Z
+  end: 2024-12-29T12:53:37Z
+  duration_total_seconds: 2955
+  duration_hrs: 0
+  duration_mins: 49
+  duration_secs: 15
+  has_review: True
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Animorphs #37: The Weakness"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Animorphs #37: The Weakness"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```
+
+{{< include reviews/review-animorphs_x2337–_the_weakness.qmd >}}

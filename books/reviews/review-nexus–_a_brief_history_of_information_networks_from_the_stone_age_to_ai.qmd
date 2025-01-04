@@ -1,0 +1,44 @@
+---
+title: "*Nexus: A Brief History of Information Networks from the Stone Age to AI*"
+book:
+  title: "*Nexus: A Brief History of Information Networks from the Stone Age to AI*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=OcwbEQAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+
+<br/>
+<br/>
+
+
+:::
+
+
+***BLANK***
+
+
+
+
+**BLANK**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3ldzdjkfjx32s >}}
+
+
+:::
+---

@@ -1,0 +1,41 @@
+---
+title: "*Animorphs: #05 The Predator*"
+book:
+  title: "Animorphs: #05 The Predator"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=9NzREAAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The wildly popular, bestselling sci-fi series by Katherine Applegate and Michael Grant returns in a new full-color graphic novel series, adapted by Chris Grine. Marco never wanted to be an Animorph. He didn't want the ability to change into any animal he touches. And he certainly didn't want to be one of a handful of kids that are the planet's only defense against a secret alien army. His friends know why he feels the way he does. He's worried about his dad -- the only family Marco has left. If anything happens to him, his father will be alone. But something big is about to change for Marco. Something that could finally give him a reason to fight.
+<br/>
+<br/>
+
+
+:::
+
+
+***READING***
+
+READING
+
+**READING**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lajzumuue22c >}}
+
+
+:::

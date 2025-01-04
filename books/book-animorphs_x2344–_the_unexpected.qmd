@@ -1,0 +1,43 @@
+---
+title: "*Animorphs #44: The Unexpected*"
+book:
+  title: "Animorphs #44: The Unexpected"
+  title_simplified: "animorphs_x2344–_the_unexpected"
+reading:
+  start: 2024-12-31T14:15:05Z
+  end: 2024-12-31T15:08:49Z
+  duration_total_seconds: 3224
+  duration_hrs: 0
+  duration_mins: 53
+  duration_secs: 44
+  has_review: True
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Animorphs #44: The Unexpected"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Animorphs #44: The Unexpected"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```
+
+{{< include reviews/review-animorphs_x2344–_the_unexpected.qmd >}}

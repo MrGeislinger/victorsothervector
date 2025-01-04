@@ -1,0 +1,41 @@
+---
+title: "*How to Speak Whale*"
+book:
+  title: "How to Speak Whale"
+  title_simplified: "how_to_speak_whale"
+reading:
+  start: 2024-03-10T15:07:01Z
+  end: 2024-03-10T20:56:35Z
+  duration_total_seconds: 10825
+  duration_hrs: 3
+  duration_mins: 0
+  duration_secs: 25
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for How to Speak Whale"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """How to Speak Whale"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

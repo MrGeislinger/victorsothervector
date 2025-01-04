@@ -1,0 +1,27 @@
+---
+title: "*The Molecule of More*"
+book:
+  title: "The Molecule of More"
+  subtitle: "How a Single Chemical in Your Brain Drives Love, Sex, and Creativity—and Will Determine the Fate of the Human Race"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](http://books.google.com/books/content?id=RQ8DtAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api)
+
+**Overview** <br/>
+<br/>
+This was one of the two books I heard mentioned from a child psychologist being that one was 'good' and the other was less helpful. I think this was the 'good' book. It did have me reframe my thinking about what dopamine really is. I liked it but I was skeptical of some implications made by the authors.
+<br/>
+<br/>
+**Buy at ThriftBooks** ([non-affiliate link](https://www.thriftbooks.com/w/the-molecule-of-more-how-a-single-chemical-in-your-brain-drives-love-sex-and-creativity--and-will-determine-the-fate-of-the-human-race_daniel-z-lieberman_michael-e-long/21836882/))
+
+
+::: 
+
+

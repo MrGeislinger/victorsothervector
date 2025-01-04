@@ -1,0 +1,44 @@
+---
+title: "*Animorphs #18: The Decision*"
+book:
+  title: "*Animorphs #18: The Decision*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=dPi-DgAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+Team gets transferred to Zero Space (anti-space) because 'technology' and able
+to go fight with the Andalites in an important battle.
+<br/>
+<br/>
+
+
+:::
+
+
+***Andalite traitors exist!***
+
+Oh so they discover there are traitors within the Andalites. Also, Ax realizes
+how much the humans' world is his new home.
+
+**The humans are relatively chill being on their first alien planet...**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lc6qlkfdac2p >}}
+
+
+:::

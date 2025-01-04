@@ -1,0 +1,40 @@
+---
+title: "*The Rise of Endymion*"
+book:
+  title: "*The Rise of Endymion*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=b-iUS4OlDLsC&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The final book from the Hyperion Cantos.
+<br/>
+<br/>
+
+
+:::
+
+
+***Not bad but I'm happy for it to be dones***
+
+
+**Is it bad when you see the final end coming from 300 pages away?**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lceug4ihkc2k >}}
+
+:::

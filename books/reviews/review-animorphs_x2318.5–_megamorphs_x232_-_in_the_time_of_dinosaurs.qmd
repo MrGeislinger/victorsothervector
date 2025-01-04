@@ -1,0 +1,51 @@
+---
+title: "*Animorphs #18.5: Megamorphs #2 - In the Time of Dinosaurs*"
+book:
+  title: "*Animorphs #18.5: Megamorphs #2 - In the Time of Dinosaurs*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=W2FHDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The team gets sent back in time (again) but this time in the age of the
+dinosaurs. Technically a book that doesn't really progress the series.
+<br/>
+<br/>
+
+
+:::
+
+
+***Dinosaurs!***
+
+I remember this one a lot– I had the physical book from when I was young! It
+really just goes right into the story with not nearly as much fluff at the
+beginning as you usually get from these books.
+
+I really felt for Cassie's empathy for all living creatures. I feel this has
+become a more typical feeling compared to ~25 years ago when this was written.
+But it was still very much written as 'yes we humans are animals, but we have 
+the capacity to recognize living things can hurt'.
+
+
+**Tobias loving dinosaurs is too perfect**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lccdap6hmk2f >}}
+
+
+:::

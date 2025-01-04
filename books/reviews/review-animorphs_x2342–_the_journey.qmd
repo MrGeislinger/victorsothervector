@@ -1,0 +1,41 @@
+---
+title: "*Animorphs #42: The Journey*"
+book:
+  title: "Animorphs #42: The Journey"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=m2YwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+Sometimes your worst problems are the ones you can't actually see. Like the Helmacrons. These less-than-an-inch-high aliens are back, and they want the morphing cube more than ever. Obviously Rachel and the other Animorphs can't let them take the cube. But when Rachel tries to stop the Helmacrons from stealing it, Marco gets in the way and ends up with tiny aliens, well, up his nose.Rachel and the others can't let the Helmacrons stay inside Marco's head. They're armed, and could cause serious damage. So the Animorphs come up with a plan to evict the Helamcrons from their new residence. But it involves a shrinking ray and the obvious: Marco's nose...
+<br/>
+<br/>
+
+
+:::
+
+
+***READING***
+
+READING
+
+**READING**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lemz32tp5b2r >}}
+
+
+:::

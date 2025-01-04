@@ -1,0 +1,43 @@
+---
+title: "*Animorphs #32: The Separation*"
+book:
+  title: "*Animorphs #32: The Separation*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=eWYwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+Uh, so Rachel gets cut in half during a starfish morph and is now two identical
+Rachels with two personalities. How the hell does morphing even work??
+<br/>
+<br/>
+
+
+:::
+
+
+***Classic 90s***
+
+As you might expect, the two Rachels really complement each other in order to
+be anything useful. Teamwork makes the dream work ♥️♥️
+
+**Totally an episode of ['Rick and Morty'](https://youtu.be/OVt-nq6YyRM)**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3le7updc2562c >}}
+
+:::

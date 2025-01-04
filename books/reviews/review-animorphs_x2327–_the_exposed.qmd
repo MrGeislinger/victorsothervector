@@ -1,0 +1,52 @@
+---
+title: "*Animorphs #27: The Exposed*"
+book:
+  title: "*Animorphs #27: The Exposed*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=dWYwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The Chee androids malfunction and apparently it's in part from Crayak trying to
+cause issues. So the team has to dive dee (as giant squids) into the ocean to
+get to the Permalite (Chee creators) ship.
+<br/>
+<br/>
+
+
+:::
+
+
+***Rachel continues to be Rachel but touches more about relationship with Tobias***
+
+This personally felt less interesting since I think there wasn't as much
+character development from beginning to end. Rachel is clearly addicted to the
+'fight' and has feelings for Tobias even if he's 'stuck' as a hawk.
+
+But not a bad story. Gave a little more world-building especially hearing how
+the Permalite's ship and design is really super trusting. (They are essentially
+dogs after all so it fits.)
+
+
+**These ghost writers might end up focusing more on world development over character development**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3ldffw3fzy224 >}}
+
+
+:::
+---

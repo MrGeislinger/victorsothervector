@@ -1,0 +1,43 @@
+---
+title: "*Animorphs #35: The Proposal*"
+book:
+  title: "Animorphs #35: The Proposal"
+  title_simplified: "animorphs_x2335–_the_proposal"
+reading:
+  start: 2024-12-27T18:07:20Z
+  end: 2024-12-27T19:07:39Z
+  duration_total_seconds: 3619
+  duration_hrs: 1
+  duration_mins: 0
+  duration_secs: 19
+  has_review: True
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Animorphs #35: The Proposal"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Animorphs #35: The Proposal"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```
+
+{{< include reviews/review-animorphs_x2335–_the_proposal.qmd >}}

@@ -1,0 +1,41 @@
+---
+title: "*Designing Autonomous AI*"
+book:
+  title: "Designing Autonomous AI"
+  title_simplified: "designing_autonomous_ai"
+reading:
+  start: 2022-10-27T19:33:21Z
+  end: 2022-10-30T17:56:09Z
+  duration_total_seconds: 11081
+  duration_hrs: 3
+  duration_mins: 4
+  duration_secs: 41
+  has_review: False
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+## Reading Journey
+
+* Started: {{< meta reading.start >}}
+* Ended: {{< meta reading.end >}}
+* Total Time Read: {{< meta reading.duration_hrs >}}hrs {{< meta reading.duration_mins >}}mins {{< meta reading.duration_secs >}}secs
+
+```{python}
+#| label: fig-reading-time
+#| fig-cap: "Reading done for Designing Autonomous AI"
+%run _help_reading.py
+import pandas as pd
+
+df = pd.read_csv(
+  'https://github.com/MrGeislinger/victorsothervector/raw/main/'
+  'data/reading/all_reading-clean.csv'
+)
+
+book_name = """Designing Autonomous AI"""
+one_title = one_title_data(df, book_name)
+one_title_summary = get_summary_by_day(one_title)
+generate_plot(one_title_summary, book_name);
+```

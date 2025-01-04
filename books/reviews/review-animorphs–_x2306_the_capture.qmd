@@ -1,0 +1,41 @@
+---
+title: "*Animorphs: #06 The Capture*"
+book:
+  title: "Animorphs: #06 The Capture"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=hnIaRxcjql0C&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The wildly popular books by K.A. Applegate are back! The Animorphs return in this update of the classic series. It was bad when Jake found out his brother was one of them. A Human-Controller. A slave. But that was nothing compared to this.When the Animorphs decide to visit the Yeerks' new base, it seems simple. But then they get caught and Jake falls -- just for a moment -- into the Yeerk pool.Now they're out, and his friends can't see it. To them he's just like normal. But Jake is screaming for help. His worst fear has finally come true. He's become the enemy.
+<br/>
+<br/>
+
+
+:::
+
+
+***READING***
+
+READING
+
+**READING**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lajzumuue22c >}}
+
+
+:::

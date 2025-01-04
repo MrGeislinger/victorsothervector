@@ -1,0 +1,45 @@
+---
+title: "*Animorphs: #08 The Alien*"
+book:
+  title: "Animorphs: #08 The Alien"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=UR5CgcHGkaQC&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+The 8th book in the Animorphs series narrated by Ax (the only Andalite of the
+Animorphs)
+<br/>
+<br/>
+
+
+:::
+
+
+***Surprise, alien doesn't understand humans.***
+
+Ax tells their story
+
+We learn that the Yerks exist because of Andalites being kind & giving them
+technology
+
+**Really enjoyed it.**
+
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lasfqk4lzs24 >}}
+
+:::

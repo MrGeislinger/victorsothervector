@@ -1,0 +1,44 @@
+---
+title: "*Animorphs #36: The Mutation*"
+book:
+  title: "*Animorphs #36: The Mutation*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=hWYwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+In short, Atlantis is real & there are mutated humans living in the ocean.
+In trying to fight against the Yeerk alien brain slugs, the Animorphs discover a
+dying & desperate society of mutated amphibious humans.
+<br/>
+<br/>
+
+
+:::
+
+
+***Some of these just feel extra wild***
+
+
+
+**Doubtful this will come up again in the series but who knows**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lehwv3nmmi2r >}}
+
+
+:::
+---

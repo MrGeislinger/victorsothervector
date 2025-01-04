@@ -1,0 +1,42 @@
+---
+title: "*Animorphs #38: The Arrival*"
+book:
+  title: "*Animorphs #38: The Arrival*"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=g2YwDwAAQBAJ&printsec=frontcover&img=2)
+
+**Overview** <br/>
+<br/>
+An Andalite team arrives to Earth– the Animorphs & Ax discover it's a suicide squad to release a bioweapon on the Yeerks that might kill humans too.
+<br/>
+<br/>
+
+
+:::
+
+
+***More Andalite shenanigans***
+
+The most heartbreaking part is the last sentence where Ax cries, clearly wishing to be home again.
+
+**Will the Andalites ever come to Earth to help?**
+
+--- 
+
+:::{.callout-note icon=false}
+
+## Bluesky Comments
+
+{{< bluesky-comments at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3leihubru6t2x >}}
+
+
+:::
+---

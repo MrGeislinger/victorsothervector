@@ -1,0 +1,30 @@
+---
+title: "*House of Leaves*"
+book:
+  title: "House of Leaves"
+format:
+  html:
+    code-fold: true
+creator: "@victorgeislinger"
+---
+
+# Thoughts on *{{< meta book.title >}}*
+
+::: {layout="[30,70]"}
+![](https://books.google.com/books/content?id=o6NzGNODRjkC&printsec=frontcover&img=1&zoom=1&source=gbs_api)
+
+**Overview** <br/>
+<br/>
+This book really shines in how its physically structured with the story told in
+the footnotes of footnotes and appendices. It's meant to emulate a non-fiction
+book while also telling (at least) two different stories that have different
+parallels to one another. If this book could be summarized, **its vibe is
+*layers***.
+<br/>
+<br/>
+**Buy at Bookshop** ([non-affiliate link](https://bookshop.org/p/books/house-of-leaves-mark-z-danielewski/8494487) / [affiliate link](https://bookshop.org/a/93954/9780375703768))
+
+
+::: 
+
+
