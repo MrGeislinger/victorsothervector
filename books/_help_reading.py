@@ -103,12 +103,35 @@ def get_year_data(data, year=2024):
     date_range = pd.date_range(start=f'{year}-01-01', end=f'{year}-12-31')
     # Create a DataFrame with all dates, weeks, and weekdays (0 activity)
     df_full = pd.DataFrame({'date': date_range})
-    df_full['week'] = df_full['date'].dt.isocalendar().week -1 #isocalendar is more accurate
+    # isocalendar will range from 0 to 51
+    df_full['week'] = df_full['date'].dt.isocalendar().week
+    # first few days could loop to prev year's week 52; change to prev week num
+    df_full.loc[
+        ((df_full['date'].dt.month == 1) &
+        (df_full['week'] == 52)),
+        'week'
+    ] = df_full['week'].min() - 1
+    # Last few days could loop to next year's week 1; change to next week num
+    df_full.loc[
+        ((df_full['date'].dt.month == 12) &
+        (df_full['week'] == 1)),
+        'week'
+    ] = df_full['week'].max() + 1
     df_full['weekday'] = df_full['date'].dt.weekday
 
     df_orig = pd.DataFrame(columns=['weekday', 'week', 'activity'])
     # Offset by one for display (starts at zero)
-    df_orig['week'] = df_yr.start.dt.strftime('%W').astype(int) - 1
+    df_orig['week'] = df_yr.start.dt.isocalendar().week
+    df_orig.loc[
+        ((df_yr.start.dt.month == 1) &
+        (df_orig['week'] == 52)),
+        'week'
+    ] = df_orig['week'].min() - 1
+    df_orig.loc[
+        ((df_yr.start.dt.month == 12) &
+        (df_orig['week'] == 1)),
+        'week'
+    ] = df_orig['week'].max() + 1
     # Monday is the first day of the week now (starts at zero)
     df_orig['weekday'] = (df_yr.start.dt.strftime('%w').astype(int) - 1) % 7
     df_orig['activity'] = df_yr.duration_frac

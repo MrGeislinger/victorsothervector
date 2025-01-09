@@ -27,6 +27,7 @@ import pandas as pd
 import numpy as np
 import matplotlib as mlp
 from matplotlib import patheffects as pe
+import datetime
 
 df = pd.read_csv(
   'https://github.com/MrGeislinger/victorsothervector/raw/main/'
@@ -139,9 +140,13 @@ fig, ax = plt.subplots(
 )
 df_pivot = get_year_data(df, year=year)
 
-Weekday, Week = np.mgrid[:df_pivot.shape[0]+1, :df_pivot.shape[1]+1]
-extreme_value = df_pivot.values.mean() + 3*df_pivot.values.std() 
+cal_pos = datetime.date.today().isocalendar()
+today_week_num = cal_pos.week
+present_data = df_pivot[list(range(1, today_week_num))].stack()
 
+extreme_value = present_data.mean() + 3*present_data.std() 
+
+Weekday, Week = np.mgrid[:df_pivot.shape[0]+1, :df_pivot.shape[1]+1]
 cmap = (plt.get_cmap('Greens')).copy()
 cmap.set_under('#EAEDF0')
 ax.set_aspect("equal")
