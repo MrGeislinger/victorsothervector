@@ -872,14 +872,14 @@
     "href": "books/book-determined–_a_science_of_life_without_free_will.html",
     "title": "Determined: A Science of Life Without Free Will",
     "section": "",
-    "text": "Started: 2025-02-22T12:07:26Z\nEnded: 2025-03-29T15:05:01Z\nTotal Time Read: 1hrs 1mins 36secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Determined: A Science of Life Without Free Will\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Determined: A Science of Life Without Free Will"
+    "text": "Started: 2025-02-22T12:07:26Z\nEnded: 2025-04-11T21:02:40Z\nTotal Time Read: 7hrs 13mins 15secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Determined: A Science of Life Without Free Will\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Determined: A Science of Life Without Free Will"
   },
   {
     "objectID": "books/book-determined–_a_science_of_life_without_free_will.html#reading-journey",
     "href": "books/book-determined–_a_science_of_life_without_free_will.html#reading-journey",
     "title": "Determined: A Science of Life Without Free Will",
     "section": "",
-    "text": "Started: 2025-02-22T12:07:26Z\nEnded: 2025-03-29T15:05:01Z\nTotal Time Read: 1hrs 1mins 36secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Determined: A Science of Life Without Free Will\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Determined: A Science of Life Without Free Will"
+    "text": "Started: 2025-02-22T12:07:26Z\nEnded: 2025-04-11T21:02:40Z\nTotal Time Read: 7hrs 13mins 15secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Determined: A Science of Life Without Free Will\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Determined: A Science of Life Without Free Will"
   },
   {
     "objectID": "books/book-animorphs_x2347–_the_resistance.html",
