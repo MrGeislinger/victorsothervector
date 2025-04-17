@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Newsletter",
+    "section": "",
+    "text": "Subscribe to a periodic newsletter!\n\n\n\nNewsletter sign-up: victorsothervector.substack.com\n\n\n\n\n\n\n\n\n\nThe newsletter is a free-to-view medium for me to share what I find interesting, so it’ll mostly center around machine learning (AI), education, and language/linguistics. Other things may leak through but it’ll be close to on brand.  For now, it’ll go through Substack but the actual material will be on this site. Eventually, newsletter emails will go out without Substack (but I gotta figure that out first).  I make no claims it will be on a ‘regular’ interval!  (But maybe bimonthly to monthly)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s Try That Again\n\n\nOh hey— it’s been a while.\n\n\n\nnewsletter\n\n\n\n\n\n\n\n\n\nApr 17, 2025\n\n\nVictor Geislinger\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Victor’s Other Vector",
     "section": "",
-    "text": "Hi, I’m Victor Geislinger!\nI’m a machine learning engineer / data scientist that also likes to think about outreach and teaching others about technical stuff.\n\n\n\n\n\n\n\n\n\n\nBluesky @VictorsVector.com: Really have leaned into it after the influx of people in late October / early November. I’m pretty sure this will be where I’ll be hanging out for the foreseeable!\nGitHub @MrGeislinger: Been my central place where I host things that I work on. Might change but for now you can see some of the things I’ve played around with over there.\nYouTube @VictorsOtherVector: Been known to put out stuff sometimes. It’s usually about sofware engineering & ML/AI.\nLinkedIn: This is the best place to actually message me; just be genuine & not a robot and I’ll try to message back.\n\n\n\n\n\n\n\n\n\n\nSubscribe to Substack for a periodic newsletter!\n\n\n\nExpect summaries and other snippets I want to point to. I make no claims it will be at a ‘regular’ interval! victorsothervector.substack.com\n\n\n\n\n\n\n\n\n\nThe newsletter is a free-to-view medium for me to share what I find interesting, so it’ll mostly center around machine learning (AI), education, and language/linguistics. Other things may leak through but it’ll be close to on brand.  The newsletter comes through on Substack but the actual material will more or less will be from other places such as this site (victorsothervector.com) or YouTube.\n\n\n\n\n\n\nThe other places I might as well mention:\n\nMastodon  @sigmoid.social/@VictorsOtherVector: You can check me out there if you like but Bluesky is where I’ll likely be at\nThreads @VictorsOtherVector: I started on Threads a while ago and it definitely had its ups. But it just hasn’t hit the right way in the long run with community. I’ll probably not really be on it much at all, but we’ll see."
+    "text": "Hi, I’m Victor Geislinger!\nI’m a machine learning engineer / data scientist that also likes to think about outreach and teaching others about technical stuff.\n\n\n\n\n\n\n\n\n\n\nBluesky @VictorsVector.com: Really have leaned into it after the influx of people in late October / early November. I’m pretty sure this will be where I’ll be hanging out for the foreseeable!\nGitHub @MrGeislinger: Been my central place where I host things that I work on. Might change but for now you can see some of the things I’ve played around with over there.\nYouTube @VictorsOtherVector: Been known to put out stuff sometimes. It’s usually about sofware engineering & ML/AI.\nLinkedIn: This is the best place to actually message me; just be genuine & not a robot and I’ll try to message back.\n\n\n\n\n\n\n\n\n\n\nSubscribe to a periodic newsletter!\n\n\n\nNewsletter sign-up: victorsothervector.substack.com\n\n\n\n\n\n\n\n\n\nThe newsletter is a free-to-view medium for me to share what I find interesting, so it’ll mostly center around machine learning (AI), education, and language/linguistics. Other things may leak through but it’ll be close to on brand.  For now, it’ll go through Substack but the actual material will be on this site. Eventually, newsletter emails will go out without Substack (but I gotta figure that out first).  I make no claims it will be on a ‘regular’ interval!  (But maybe bimonthly to monthly)\n\n\n\n\n\n\nThe other places I might as well mention:\n\nMastodon  @sigmoid.social/@VictorsOtherVector: You can check me out there if you like but Bluesky is where I’ll likely be at\nThreads @VictorsOtherVector: I started on Threads a while ago and it definitely had its ups. But it just hasn’t hit the right way in the long run with community. I’ll probably not really be on it much at all, but we’ll see."
   },
   {
     "objectID": "books/reviews/review-dark_matter.html",
@@ -4646,5 +4653,40 @@
     "title": "The Creative Act: A Way of Being",
     "section": "",
     "text": "Started: 2023-09-28T03:38:30Z\nEnded: 2023-09-28T05:06:30Z\nTotal Time Read: 1hrs 28mins 0secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Creative Act: A Way of Being\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Creative Act: A Way of Being"
+  },
+  {
+    "objectID": "blog/newsletters/lets-try-that-again/index.html",
+    "href": "blog/newsletters/lets-try-that-again/index.html",
+    "title": "Let’s Try That Again",
+    "section": "",
+    "text": "365 days to be exact. I ‘started’ my newsletter April 17th, 2024 and wrote exactly once.\noops.\nBut really— I’m ok with this. I could talk about the external reasons I didn’t follow through, like how that time ended up being quite chaotic for me personally. However, at the end of the day, it comes down to I just didn’t write.\nI want to start again.\nThankfully I started at 0 so this can still be my ‘1st newsletter’. (Look at Past Victor looking out for me.)\nMy motivation for putting out a newsletter is still to put my thoughts out there. It’s mostly to be able to look over at myself (Hi Future Victor!) and if what I share happens to interest someone else, awesome!\nI had a peak at my 0th newsletter (don’t worry about reading it— past Victor is dead) and a lot still holds for what I want to write. Definitely a lot of potential of sharing that I haven’t done."
+  },
+  {
+    "objectID": "blog/newsletters/lets-try-that-again/index.html#what-to-expect",
+    "href": "blog/newsletters/lets-try-that-again/index.html#what-to-expect",
+    "title": "Let’s Try That Again",
+    "section": "What to expect?",
+    "text": "What to expect?\ntl;dr I’d like this to be a somewhat ‘light’ periodic share of my thoughts, things I made, and things I find interesting.\n\nObviously my track record is not great, so take everything with a grain of salt.\n\n\nContent\nIn short, I very much still want to share a variety of things.\nJust to give you a quick sample of what I’m playing around with, I have a few drafts on some different topics:\n\n‘Cursed’ Python code that is sometimes funny but also sucked way too much time from me\nCasually rewatching Crash Course Philosophy on ethics and morality\nWriting up when I serendipitously vide coded a puzzle game for my kids with Gemini Pro 2.5 (here’s the game if you can’t wait: github.com/MrGeislinger/poc-simple-puzzle-game)\n\nThose are the draft posts I have write now but I’m hoping that gives a feel for what I’m going for. I like technical stuff (especially on machine learning since that’s my focus), but I also want to share more reflection stuff too.\nI read every now and again. I’d love to share more about re-reading the Animorphs series.\nAlso having a place to share little creations would be nice. There are a few coding side projects that could interesting to put out there. I have been looking at making some more explanation YouTube videos.\n\n\nTiming\nI’d love to be diligent enough to make a weekly newsletter. But an empty year of posts seems to suggest that’s unlikely. In my head this will be closer to a monthly or if I’m good, bimonthly affairs.\nBut don’t hold me to it 😅 Consider my newsletter to be a surprising notification of whimsy. (Or an only slightly periodic annoyance.)"
+  },
+  {
+    "objectID": "blog/newsletters/lets-try-that-again/index.html#whats-different-this-time",
+    "href": "blog/newsletters/lets-try-that-again/index.html#whats-different-this-time",
+    "title": "Let’s Try That Again",
+    "section": "What’s different this time?",
+    "text": "What’s different this time?\n\nSo long Substack— I hardly knew thee\nOne change is that I want to move off of Substack. I was already hesitant a year ago but now I really want to control my own stuff as much as possible. So instead, I’ll be putting everything on my website: victorsothervector.com\nI figure even if I setup something that’s janky & held together together with duct tape & bent nails, at least it’s my jank. I’m also not tricking myself that I plan to monetization blah blah. (I’m serious about this being for enjoyment. So serious.)\nThe plan is to move the email list off this platform and simply point to my own hosted blog post. I don’t know when I’ll do that exactly. I also don’t know how much will change so, er, thanks for sticking with me!\nOr not— I’m cool if you want to unsubscribe. I’ll still be here. I just have to figure out how to make unsubscribing work (and subscribing!) in a post-Substack world. Gonna let Future Victor take care of that XD\n\n\nBeing social can be fun\nAlso, I’ve been enjoying using Bluesky for stuff. I really like that I can use ATProtocol that Bluesky is built on top of to do things. I’ve been playing around with embedding my Bluesky posts & comments on webpages.\nSo the plan is that these blog posts with the newsletter will have a little comment section using Bluesky. (Here’s my account by the way: @victorsvector.com)"
+  },
+  {
+    "objectID": "blog/newsletters/lets-try-that-again/index.html#thats-it",
+    "href": "blog/newsletters/lets-try-that-again/index.html#thats-it",
+    "title": "Let’s Try That Again",
+    "section": "That’s it",
+    "text": "That’s it\nSorry to make this newsletter after a year of nothing to be ‘so this is going to be what the newsletter will be about, but for reals this time’. But I felt like I needed a buffer between silence and putting something out there.\n\nGood-byes are awkward\nEspecially when you’re awkward. So, uh… bye! (Until next time)"
+  },
+  {
+    "objectID": "blog/newsletters/lets-try-that-again/index.html#bluesky-comments",
+    "href": "blog/newsletters/lets-try-that-again/index.html#bluesky-comments",
+    "title": "Let’s Try That Again",
+    "section": "Bluesky Comments",
+    "text": "Bluesky Comments"
   }
 ]

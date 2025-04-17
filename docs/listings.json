@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/newsletters/lets-try-that-again/index.html"
+    ]
+  },
+  {
     "listing": "/projects/animorphs/index.html",
     "items": [
       "/books/book-animorphs_x2301–_the_invasion.html",
