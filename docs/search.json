@@ -2181,14 +2181,14 @@
     "href": "books/book-the_dictionary_wars–_the_american_fight_over_the_english_language.html",
     "title": "The Dictionary Wars: The American Fight Over the English Language",
     "section": "",
-    "text": "Started: 2025-04-23T14:31:50Z\nEnded: 2025-04-23T16:04:44Z\nTotal Time Read: 1hrs 18mins 4secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Dictionary Wars: The American Fight Over the English Language\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Dictionary Wars: The American Fight Over the English Language"
+    "text": "Started: 2025-04-23T14:31:50Z\nEnded: 2025-04-25T22:24:36Z\nTotal Time Read: 3hrs 4mins 51secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Dictionary Wars: The American Fight Over the English Language\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Dictionary Wars: The American Fight Over the English Language"
   },
   {
     "objectID": "books/book-the_dictionary_wars–_the_american_fight_over_the_english_language.html#reading-journey",
     "href": "books/book-the_dictionary_wars–_the_american_fight_over_the_english_language.html#reading-journey",
     "title": "The Dictionary Wars: The American Fight Over the English Language",
     "section": "",
-    "text": "Started: 2025-04-23T14:31:50Z\nEnded: 2025-04-23T16:04:44Z\nTotal Time Read: 1hrs 18mins 4secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Dictionary Wars: The American Fight Over the English Language\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Dictionary Wars: The American Fight Over the English Language"
+    "text": "Started: 2025-04-23T14:31:50Z\nEnded: 2025-04-25T22:24:36Z\nTotal Time Read: 3hrs 4mins 51secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The Dictionary Wars: The American Fight Over the English Language\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The Dictionary Wars: The American Fight Over the English Language"
   },
   {
     "objectID": "books/book-ultralearning.html",
