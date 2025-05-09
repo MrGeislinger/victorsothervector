@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Newsletters</title>
+<title>Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/bluesky-comments-section-1.0.0/bluesky-comments.js"></script>
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,72 +69,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
             <div id="quarto-search" class="" title="Search"></div>
@@ -145,17 +86,17 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="../../index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../books/"> <i class="bi bi-book" role="img">
+    <a class="nav-link" href="../../books/"> <i class="bi bi-book" role="img">
 </i> 
 <span class="menu-text">My Reading</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/"> <i class="bi bi-substack" role="img">
+    <a class="nav-link" href="../../blog/"> <i class="bi bi-substack" role="img">
 </i> 
 <span class="menu-text">Newsletter</span></a>
   </li>  
@@ -183,107 +124,69 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Newsletters</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="newsletter">newsletter <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><em>Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines</em></h1>
 </div>
-<div class="callout-title-container flex-fill">
-Subscribe to a periodic newsletter!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Newsletter sign-up: <a href="https://victorsothervector.substack.com/?r=2fco1e&amp;utm_campaign=site_link_newsletter">victorsothervector.substack.com</a></p>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="thoughts-on" class="level1">
+<h1>Thoughts on <em>Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines</em></h1>
 <div>
 
 </div>
 <div class="quarto-layout-panel" data-layout="[30,70]">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
-<p><a href="https://victorsothervector.substack.com/?r=2fco1e&amp;utm_campaign=site_img"><img src="../images/substack_subscribe.jpg" class="img-fluid"></a></p>
+<p><img src="https://books.google.com/books/content?id=hzEmEQAAQBAJ&amp;printsec=frontcover&amp;img=2.png" class="img-fluid"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
-<p>The newsletter is a free-to-view medium for me to share what I find interesting, so it’ll mostly center around machine learning (AI), education, and language/linguistics. Other things may leak through but it’ll be close to on brand. <br><br> For now, it’ll go through Substack but the actual material will be on this <a href="https://victorsothervector.com/blog/">site</a>. Eventually, newsletter emails will go out without Substack (but I gotta figure that out first). <br><br> <em>I make no claims it will be on a ‘regular’ interval!</em> <br> <em>(But maybe bimonthly to monthly)</em></p>
+<p><strong>Overview</strong> <br> <br> Using machine learning for products, services, and critical business processes is quite different from using ML in an academic or research setting—especially for recent ML graduates and those moving from research to a commercial environment. Whether you currently work to create products and services that use ML, or would like to in the future, this practical book gives you a broad view of the entire field. Authors Robert Crowe, Hannes Hapke, Emily Caveness, and Di Zhu help you identify topics that you can dive into deeper, along with reference materials and tutorials that teach you the details. You’ll learn the state of the art of machine learning engineering, including a wide range of topics such as modeling, deployment, and MLOps. You’ll learn the basics and advanced aspects to understand the production ML lifecycle. This book provides four in-depth sections that cover all aspects of machine learning engineering: Data: collecting, labeling, validating, automation, and data preprocessing; data feature engineering and selection; data journey and storage Modeling: high performance modeling; model resource management techniques; model analysis and interoperability; neural architecture search Deployment: model serving patterns and infrastructure for ML models and LLMs; management and delivery; monitoring and logging Productionalizing: ML pipelines; classifying unstructured texts and images; genAI model pipelines <br> <br></p>
 </div>
 </div>
 </div>
-<!-- end {.callout-tip}-->
-</div>
-</div>
+<p><strong><em>READING</em></strong></p>
+<p>READING</p>
+<p><strong>READING</strong></p>
 <hr>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Bluesky Comments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<bluesky-comments-section post="at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lajzumuue22c"></bluesky-comments-section>
+</div>
+</div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="newsletter" data-listing-date-sort="1744873200000" data-listing-file-modified-sort="1744911880466" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="767">
-<div class="thumbnail">
-<p><a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external"></a></p><a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">
-<p><img src="../blog/newsletters/lets-try-that-again/oops-face.png" class="thumbnail-image"></p>
-</a><p><a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">Let’s Try That Again</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">Oh hey— it’s been a while.</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('newsletter'); return false;">
-newsletter
-</div>
-</div>
-<div class="listing-description">
-<a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">365 days to be exact. I ‘started’ my newsletter <em>April 17th, 2024</em> and wrote exactly once.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">
-<div class="listing-date">
-Apr 17, 2025
-</div>
-<div class="listing-author">
-Victor Geislinger
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

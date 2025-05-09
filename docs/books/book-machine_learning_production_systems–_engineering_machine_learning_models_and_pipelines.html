@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Newsletters</title>
+<title>Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -31,8 +65,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,6 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/bluesky-comments-section-1.0.0/bluesky-comments.js"></script>
 <script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -70,72 +103,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
             <div id="quarto-search" class="" title="Search"></div>
@@ -183,107 +158,106 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Newsletters</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="newsletter">newsletter <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><em>Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines</em></h1>
 </div>
-<div class="callout-title-container flex-fill">
-Subscribe to a periodic newsletter!
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="reading-journey" class="level2">
+<h2 class="anchored" data-anchor-id="reading-journey">Reading Journey</h2>
+<ul>
+<li>Started: 2025-04-30T22:42:29Z</li>
+<li>Ended: 2025-05-04T21:09:22Z</li>
+<li>Total Time Read: 1hrs 18mins 6secs</li>
+</ul>
+<div id="cell-fig-reading-time" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>run _help_reading.py</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="st">'https://github.com/MrGeislinger/victorsothervector/raw/main/'</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="st">'data/reading/all_reading-clean.csv'</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>book_name <span class="op">=</span> <span class="st">"""Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines"""</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>one_title <span class="op">=</span> one_title_data(df, book_name)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>one_title_summary <span class="op">=</span> get_summary_by_day(one_title)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>generate_plot(one_title_summary, book_name)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig-reading-time" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-reading-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="book-machine_learning_production_systems–_engineering_machine_learning_models_and_pipelines_files/figure-html/fig-reading-time-output-1.png" width="921" height="381" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-reading-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Reading done for Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines
+</figcaption>
+</figure>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>Newsletter sign-up: <a href="https://victorsothervector.substack.com/?r=2fco1e&amp;utm_campaign=site_link_newsletter">victorsothervector.substack.com</a></p>
+</div>
+</section>
+<section id="thoughts-on" class="level1">
+<h1>Thoughts on <em>Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines</em></h1>
 <div>
 
 </div>
 <div class="quarto-layout-panel" data-layout="[30,70]">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
-<p><a href="https://victorsothervector.substack.com/?r=2fco1e&amp;utm_campaign=site_img"><img src="../images/substack_subscribe.jpg" class="img-fluid"></a></p>
+<p><img src="https://books.google.com/books/content?id=hzEmEQAAQBAJ&amp;printsec=frontcover&amp;img=2.png" class="img-fluid"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
-<p>The newsletter is a free-to-view medium for me to share what I find interesting, so it’ll mostly center around machine learning (AI), education, and language/linguistics. Other things may leak through but it’ll be close to on brand. <br><br> For now, it’ll go through Substack but the actual material will be on this <a href="https://victorsothervector.com/blog/">site</a>. Eventually, newsletter emails will go out without Substack (but I gotta figure that out first). <br><br> <em>I make no claims it will be on a ‘regular’ interval!</em> <br> <em>(But maybe bimonthly to monthly)</em></p>
+<p><strong>Overview</strong> <br> <br> Using machine learning for products, services, and critical business processes is quite different from using ML in an academic or research setting—especially for recent ML graduates and those moving from research to a commercial environment. Whether you currently work to create products and services that use ML, or would like to in the future, this practical book gives you a broad view of the entire field. Authors Robert Crowe, Hannes Hapke, Emily Caveness, and Di Zhu help you identify topics that you can dive into deeper, along with reference materials and tutorials that teach you the details. You’ll learn the state of the art of machine learning engineering, including a wide range of topics such as modeling, deployment, and MLOps. You’ll learn the basics and advanced aspects to understand the production ML lifecycle. This book provides four in-depth sections that cover all aspects of machine learning engineering: Data: collecting, labeling, validating, automation, and data preprocessing; data feature engineering and selection; data journey and storage Modeling: high performance modeling; model resource management techniques; model analysis and interoperability; neural architecture search Deployment: model serving patterns and infrastructure for ML models and LLMs; management and delivery; monitoring and logging Productionalizing: ML pipelines; classifying unstructured texts and images; genAI model pipelines <br> <br></p>
 </div>
 </div>
 </div>
-<!-- end {.callout-tip}-->
-</div>
-</div>
+<p><strong><em>READING</em></strong></p>
+<p>READING</p>
+<p><strong>READING</strong></p>
 <hr>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Bluesky Comments
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<bluesky-comments-section post="at://did:plc:jfda6xfy4ncaf72omkvrbkko/app.bsky.feed.post/3lajzumuue22c"></bluesky-comments-section>
+</div>
+</div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="newsletter" data-listing-date-sort="1744873200000" data-listing-file-modified-sort="1744911880466" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="767">
-<div class="thumbnail">
-<p><a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external"></a></p><a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">
-<p><img src="../blog/newsletters/lets-try-that-again/oops-face.png" class="thumbnail-image"></p>
-</a><p><a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">Let’s Try That Again</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">Oh hey— it’s been a while.</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('newsletter'); return false;">
-newsletter
-</div>
-</div>
-<div class="listing-description">
-<a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">365 days to be exact. I ‘started’ my newsletter <em>April 17th, 2024</em> and wrote exactly once.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/newsletters/lets-try-that-again/index.html" class="no-external">
-<div class="listing-date">
-Apr 17, 2025
-</div>
-<div class="listing-author">
-Victor Geislinger
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
