@@ -2552,14 +2552,14 @@
     "href": "books/book-coders–_the_making_of_a_new_tribe_and_the_remaking_of_the_world.html",
     "title": "Coders: The Making of a New Tribe and the Remaking of the World",
     "section": "",
-    "text": "Started: 2025-05-02T17:55:48Z\nEnded: 2025-05-02T18:26:17Z\nTotal Time Read: 0hrs 30mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Coders: The Making of a New Tribe and the Remaking of the World\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Coders: The Making of a New Tribe and the Remaking of the World"
+    "text": "Started: 2025-05-02T17:55:00Z\nEnded: 2025-05-08T14:37:00Z\nTotal Time Read: 4hrs 21mins 42secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Coders: The Making of a New Tribe and the Remaking of the World\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Coders: The Making of a New Tribe and the Remaking of the World"
   },
   {
     "objectID": "books/book-coders–_the_making_of_a_new_tribe_and_the_remaking_of_the_world.html#reading-journey",
     "href": "books/book-coders–_the_making_of_a_new_tribe_and_the_remaking_of_the_world.html#reading-journey",
     "title": "Coders: The Making of a New Tribe and the Remaking of the World",
     "section": "",
-    "text": "Started: 2025-05-02T17:55:48Z\nEnded: 2025-05-02T18:26:17Z\nTotal Time Read: 0hrs 30mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Coders: The Making of a New Tribe and the Remaking of the World\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Coders: The Making of a New Tribe and the Remaking of the World"
+    "text": "Started: 2025-05-02T17:55:00Z\nEnded: 2025-05-08T14:37:00Z\nTotal Time Read: 4hrs 21mins 42secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Coders: The Making of a New Tribe and the Remaking of the World\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Coders: The Making of a New Tribe and the Remaking of the World"
   },
   {
     "objectID": "books/book-animorphs_x2340–_the_other.html",
