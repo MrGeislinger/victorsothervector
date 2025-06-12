@@ -1488,14 +1488,14 @@
     "href": "books/book-the_ai_con–_how_to_fight_big_tech’s_hype_and_create_the_future_we_want.html",
     "title": "The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want",
     "section": "",
-    "text": "Started: 2025-06-01T11:42:56Z\nEnded: 2025-06-01T13:04:56Z\nTotal Time Read: 1hrs 16mins 0secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want"
+    "text": "Started: 2025-06-01T11:42:56Z\nEnded: 2025-06-11T07:21:31Z\nTotal Time Read: 2hrs 46mins 18secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want"
   },
   {
     "objectID": "books/book-the_ai_con–_how_to_fight_big_tech’s_hype_and_create_the_future_we_want.html#reading-journey",
     "href": "books/book-the_ai_con–_how_to_fight_big_tech’s_hype_and_create_the_future_we_want.html#reading-journey",
     "title": "The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want",
     "section": "",
-    "text": "Started: 2025-06-01T11:42:56Z\nEnded: 2025-06-01T13:04:56Z\nTotal Time Read: 1hrs 16mins 0secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want"
+    "text": "Started: 2025-06-01T11:42:56Z\nEnded: 2025-06-11T07:21:31Z\nTotal Time Read: 2hrs 46mins 18secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want"
   },
   {
     "objectID": "books/book-what_ifx3F_2.html",
