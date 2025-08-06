@@ -1418,14 +1418,14 @@
     "href": "books/book-everything_you_ever_wanted_to_know_about_zombies.html",
     "title": "Everything You Ever Wanted to Know About Zombies",
     "section": "",
-    "text": "Started: 2025-08-01T19:57:39Z\nEnded: 2025-08-01T21:39:06Z\nTotal Time Read: 1hrs 41mins 16secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Everything You Ever Wanted to Know About Zombies\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Everything You Ever Wanted to Know About Zombies"
+    "text": "Started: 2025-08-01T19:57:39Z\nEnded: 2025-08-04T15:54:15Z\nTotal Time Read: 3hrs 58mins 31secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Everything You Ever Wanted to Know About Zombies\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Everything You Ever Wanted to Know About Zombies"
   },
   {
     "objectID": "books/book-everything_you_ever_wanted_to_know_about_zombies.html#reading-journey",
     "href": "books/book-everything_you_ever_wanted_to_know_about_zombies.html#reading-journey",
     "title": "Everything You Ever Wanted to Know About Zombies",
     "section": "",
-    "text": "Started: 2025-08-01T19:57:39Z\nEnded: 2025-08-01T21:39:06Z\nTotal Time Read: 1hrs 41mins 16secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Everything You Ever Wanted to Know About Zombies\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Everything You Ever Wanted to Know About Zombies"
+    "text": "Started: 2025-08-01T19:57:39Z\nEnded: 2025-08-04T15:54:15Z\nTotal Time Read: 3hrs 58mins 31secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Everything You Ever Wanted to Know About Zombies\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Everything You Ever Wanted to Know About Zombies"
   },
   {
     "objectID": "books/book-how_google_works.html",
