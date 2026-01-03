@@ -4477,14 +4477,14 @@
     "href": "books/book-data_and_reality,_2nd_edition.html",
     "title": "Data and Reality, 2nd Edition",
     "section": "",
-    "text": "Started: 2025-01-16T13:20:38Z\nEnded: 2025-02-27T12:44:43Z\nTotal Time Read: 1hrs 17mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Data and Reality, 2nd Edition\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Data and Reality, 2nd Edition"
+    "text": "Started: 2025-01-16T13:20:38Z\nEnded: 2026-01-01T21:50:43Z\nTotal Time Read: 2hrs 52mins 41secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Data and Reality, 2nd Edition\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Data and Reality, 2nd Edition"
   },
   {
     "objectID": "books/book-data_and_reality,_2nd_edition.html#reading-journey",
     "href": "books/book-data_and_reality,_2nd_edition.html#reading-journey",
     "title": "Data and Reality, 2nd Edition",
     "section": "",
-    "text": "Started: 2025-01-16T13:20:38Z\nEnded: 2025-02-27T12:44:43Z\nTotal Time Read: 1hrs 17mins 39secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Data and Reality, 2nd Edition\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Data and Reality, 2nd Edition"
+    "text": "Started: 2025-01-16T13:20:38Z\nEnded: 2026-01-01T21:50:43Z\nTotal Time Read: 2hrs 52mins 41secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Data and Reality, 2nd Edition\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Data and Reality, 2nd Edition"
   },
   {
     "objectID": "books/book-practical_weak_supervision.html",
