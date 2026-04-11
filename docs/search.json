@@ -2709,18 +2709,32 @@
     "text": "Started: 2022-11-08T20:49:37Z\nEnded: 2022-12-31T13:54:22Z\nTotal Time Read: 6hrs 1mins 24secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"High Performance Python\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for High Performance Python"
   },
   {
-    "objectID": "books/book-practical_fairness.html",
-    "href": "books/book-practical_fairness.html",
-    "title": "Practical Fairness",
+    "objectID": "books/book-true_color.html",
+    "href": "books/book-true_color.html",
+    "title": "True Color",
     "section": "",
-    "text": "Started: 2023-03-30T20:29:34Z\nEnded: 2024-01-28T21:22:45Z\nTotal Time Read: 5hrs 6mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Practical Fairness\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Practical Fairness"
+    "text": "Started: 2026-04-10T15:38:19Z\nEnded: 2026-04-10T23:04:22Z\nTotal Time Read: 2hrs 28mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"True Color\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for True Color"
   },
   {
-    "objectID": "books/book-practical_fairness.html#reading-journey",
-    "href": "books/book-practical_fairness.html#reading-journey",
-    "title": "Practical Fairness",
+    "objectID": "books/book-true_color.html#reading-journey",
+    "href": "books/book-true_color.html#reading-journey",
+    "title": "True Color",
     "section": "",
-    "text": "Started: 2023-03-30T20:29:34Z\nEnded: 2024-01-28T21:22:45Z\nTotal Time Read: 5hrs 6mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Practical Fairness\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Practical Fairness"
+    "text": "Started: 2026-04-10T15:38:19Z\nEnded: 2026-04-10T23:04:22Z\nTotal Time Read: 2hrs 28mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"True Color\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for True Color"
+  },
+  {
+    "objectID": "books/book-animorphs_x2340–_the_other.html",
+    "href": "books/book-animorphs_x2340–_the_other.html",
+    "title": "Animorphs #40: The Other",
+    "section": "",
+    "text": "Started: 2024-12-29T20:01:34Z\nEnded: 2024-12-29T21:02:09Z\nTotal Time Read: 1hrs 0mins 35secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #40: The Other\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #40: The Other"
+  },
+  {
+    "objectID": "books/book-animorphs_x2340–_the_other.html#reading-journey",
+    "href": "books/book-animorphs_x2340–_the_other.html#reading-journey",
+    "title": "Animorphs #40: The Other",
+    "section": "",
+    "text": "Started: 2024-12-29T20:01:34Z\nEnded: 2024-12-29T21:02:09Z\nTotal Time Read: 1hrs 0mins 35secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #40: The Other\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #40: The Other"
   },
   {
     "objectID": "books/book-a_mind_for_numbers.html",
@@ -2891,18 +2905,32 @@
     "text": "Started: 2025-05-02T17:55:00Z\nEnded: 2025-05-08T14:37:00Z\nTotal Time Read: 4hrs 21mins 42secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Coders: The Making of a New Tribe and the Remaking of the World\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Coders: The Making of a New Tribe and the Remaking of the World"
   },
   {
-    "objectID": "books/book-animorphs_x2340–_the_other.html",
-    "href": "books/book-animorphs_x2340–_the_other.html",
-    "title": "Animorphs #40: The Other",
+    "objectID": "books/book-empire_of_ai.html",
+    "href": "books/book-empire_of_ai.html",
+    "title": "Empire of AI",
     "section": "",
-    "text": "Started: 2024-12-29T20:01:34Z\nEnded: 2024-12-29T21:02:09Z\nTotal Time Read: 1hrs 0mins 35secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #40: The Other\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #40: The Other"
+    "text": "Started: 2026-04-08T10:29:45Z\nEnded: 2026-04-10T10:33:44Z\nTotal Time Read: 5hrs 59mins 27secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Empire of AI\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Empire of AI"
   },
   {
-    "objectID": "books/book-animorphs_x2340–_the_other.html#reading-journey",
-    "href": "books/book-animorphs_x2340–_the_other.html#reading-journey",
-    "title": "Animorphs #40: The Other",
+    "objectID": "books/book-empire_of_ai.html#reading-journey",
+    "href": "books/book-empire_of_ai.html#reading-journey",
+    "title": "Empire of AI",
     "section": "",
-    "text": "Started: 2024-12-29T20:01:34Z\nEnded: 2024-12-29T21:02:09Z\nTotal Time Read: 1hrs 0mins 35secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Animorphs #40: The Other\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Animorphs #40: The Other"
+    "text": "Started: 2026-04-08T10:29:45Z\nEnded: 2026-04-10T10:33:44Z\nTotal Time Read: 5hrs 59mins 27secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Empire of AI\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Empire of AI"
+  },
+  {
+    "objectID": "books/book-practical_fairness.html",
+    "href": "books/book-practical_fairness.html",
+    "title": "Practical Fairness",
+    "section": "",
+    "text": "Started: 2023-03-30T20:29:34Z\nEnded: 2024-01-28T21:22:45Z\nTotal Time Read: 5hrs 6mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Practical Fairness\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Practical Fairness"
+  },
+  {
+    "objectID": "books/book-practical_fairness.html#reading-journey",
+    "href": "books/book-practical_fairness.html#reading-journey",
+    "title": "Practical Fairness",
+    "section": "",
+    "text": "Started: 2023-03-30T20:29:34Z\nEnded: 2024-01-28T21:22:45Z\nTotal Time Read: 5hrs 6mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Practical Fairness\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Practical Fairness"
   },
   {
     "objectID": "books/book-the_theoretical_minimum.html",
@@ -5584,33 +5612,5 @@
     "title": "Newsletter",
     "section": "",
     "text": "Subscribe to a periodic newsletter!\n\n\n\nNewsletter sign-up: victorsothervector.substack.com\n\n\n\n\n\n\n\n\n\nThe newsletter is a free-to-view medium for me to share what I find interesting, so it’ll mostly center around machine learning (AI), education, and language/linguistics. Other things may leak through but it’ll be close to on brand.  For now, it’ll go through Substack but the actual material will be on this site. Eventually, newsletter emails will go out without Substack (but I gotta figure that out first).  I make no claims it will be on a ‘regular’ interval!  (But maybe bimonthly to monthly)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s Try That Again\n\n\nOh hey— it’s been a while.\n\n\n\nnewsletter\n\n\n\n\n\n\n\n\n\nApr 17, 2025\n\n\nVictor Geislinger\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "books/book-empire_of_ai.html",
-    "href": "books/book-empire_of_ai.html",
-    "title": "Empire of AI",
-    "section": "",
-    "text": "Started: 2026-04-08T10:29:45Z\nEnded: 2026-04-10T10:33:44Z\nTotal Time Read: 5hrs 59mins 27secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Empire of AI\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Empire of AI"
-  },
-  {
-    "objectID": "books/book-empire_of_ai.html#reading-journey",
-    "href": "books/book-empire_of_ai.html#reading-journey",
-    "title": "Empire of AI",
-    "section": "",
-    "text": "Started: 2026-04-08T10:29:45Z\nEnded: 2026-04-10T10:33:44Z\nTotal Time Read: 5hrs 59mins 27secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Empire of AI\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Empire of AI"
-  },
-  {
-    "objectID": "books/book-true_color.html",
-    "href": "books/book-true_color.html",
-    "title": "True Color",
-    "section": "",
-    "text": "Started: 2026-04-10T15:38:19Z\nEnded: 2026-04-10T23:04:22Z\nTotal Time Read: 2hrs 28mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"True Color\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for True Color"
-  },
-  {
-    "objectID": "books/book-true_color.html#reading-journey",
-    "href": "books/book-true_color.html#reading-journey",
-    "title": "True Color",
-    "section": "",
-    "text": "Started: 2026-04-10T15:38:19Z\nEnded: 2026-04-10T23:04:22Z\nTotal Time Read: 2hrs 28mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"True Color\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for True Color"
   }
 ]
