@@ -1733,14 +1733,14 @@
     "href": "books/book-if_anyone_builds_it,_everyone_dies.html",
     "title": "If Anyone Builds It, Everyone Dies",
     "section": "",
-    "text": "Started: 2026-04-07T14:29:40Z\nEnded: 2026-04-07T23:51:44Z\nTotal Time Read: 2hrs 34mins 19secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"If Anyone Builds It, Everyone Dies\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for If Anyone Builds It, Everyone Dies"
+    "text": "Started: 2026-04-07T14:29:40Z\nEnded: 2026-04-08T09:59:35Z\nTotal Time Read: 3hrs 19mins 35secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"If Anyone Builds It, Everyone Dies\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for If Anyone Builds It, Everyone Dies"
   },
   {
     "objectID": "books/book-if_anyone_builds_it,_everyone_dies.html#reading-journey",
     "href": "books/book-if_anyone_builds_it,_everyone_dies.html#reading-journey",
     "title": "If Anyone Builds It, Everyone Dies",
     "section": "",
-    "text": "Started: 2026-04-07T14:29:40Z\nEnded: 2026-04-07T23:51:44Z\nTotal Time Read: 2hrs 34mins 19secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"If Anyone Builds It, Everyone Dies\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for If Anyone Builds It, Everyone Dies"
+    "text": "Started: 2026-04-07T14:29:40Z\nEnded: 2026-04-08T09:59:35Z\nTotal Time Read: 3hrs 19mins 35secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"If Anyone Builds It, Everyone Dies\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for If Anyone Builds It, Everyone Dies"
   },
   {
     "objectID": "books/book-animorphs_x2338–_the_arrival.html",
@@ -5584,5 +5584,33 @@
     "title": "Newsletter",
     "section": "",
     "text": "Subscribe to a periodic newsletter!\n\n\n\nNewsletter sign-up: victorsothervector.substack.com\n\n\n\n\n\n\n\n\n\nThe newsletter is a free-to-view medium for me to share what I find interesting, so it’ll mostly center around machine learning (AI), education, and language/linguistics. Other things may leak through but it’ll be close to on brand.  For now, it’ll go through Substack but the actual material will be on this site. Eventually, newsletter emails will go out without Substack (but I gotta figure that out first).  I make no claims it will be on a ‘regular’ interval!  (But maybe bimonthly to monthly)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s Try That Again\n\n\nOh hey— it’s been a while.\n\n\n\nnewsletter\n\n\n\n\n\n\n\n\n\nApr 17, 2025\n\n\nVictor Geislinger\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "books/book-empire_of_ai.html",
+    "href": "books/book-empire_of_ai.html",
+    "title": "Empire of AI",
+    "section": "",
+    "text": "Started: 2026-04-08T10:29:45Z\nEnded: 2026-04-10T10:33:44Z\nTotal Time Read: 5hrs 59mins 27secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Empire of AI\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Empire of AI"
+  },
+  {
+    "objectID": "books/book-empire_of_ai.html#reading-journey",
+    "href": "books/book-empire_of_ai.html#reading-journey",
+    "title": "Empire of AI",
+    "section": "",
+    "text": "Started: 2026-04-08T10:29:45Z\nEnded: 2026-04-10T10:33:44Z\nTotal Time Read: 5hrs 59mins 27secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"Empire of AI\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for Empire of AI"
+  },
+  {
+    "objectID": "books/book-true_color.html",
+    "href": "books/book-true_color.html",
+    "title": "True Color",
+    "section": "",
+    "text": "Started: 2026-04-10T15:38:19Z\nEnded: 2026-04-10T23:04:22Z\nTotal Time Read: 2hrs 28mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"True Color\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for True Color"
+  },
+  {
+    "objectID": "books/book-true_color.html#reading-journey",
+    "href": "books/book-true_color.html#reading-journey",
+    "title": "True Color",
+    "section": "",
+    "text": "Started: 2026-04-10T15:38:19Z\nEnded: 2026-04-10T23:04:22Z\nTotal Time Read: 2hrs 28mins 29secs\n\n\n\nCode\n%run _help_reading.py\nimport pandas as pd\n\ndf = pd.read_csv(\n  'https://github.com/MrGeislinger/victorsothervector/raw/main/'\n  'data/reading/all_reading-clean.csv'\n)\n\nbook_name = \"\"\"True Color\"\"\"\none_title = one_title_data(df, book_name)\none_title_summary = get_summary_by_day(one_title)\ngenerate_plot(one_title_summary, book_name);\n\n\n\n\n\n\n\n\nFigure 1: Reading done for True Color"
   }
 ]
